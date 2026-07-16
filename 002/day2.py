@@ -19,5 +19,16 @@
 # myage = int(age) # You can change the type of the string 
 
 
-age1 = int(input("Enter your age : "))
-print(type(age1))
+# age1 = int(input("Enter your age : "))
+# print(type(age1))
+
+
+# Variables operators and what operations we apply on it 
+
+# Operators 2 types
+# Unary & Binary 
+
+# Operators: + , - , * , / , 
+# // for floor divide
+print(17 // 3)
+print(15/5)
