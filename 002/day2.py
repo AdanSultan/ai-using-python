@@ -39,3 +39,11 @@ print(15/5)
 print(11 % 3)
 print(2**3)
 
+
+# Comparison Operators : Get answer as true or false 
+# == equal operator
+# != not equal operator
+# > greater then 
+# < less then 
+# >= 
+# <=
