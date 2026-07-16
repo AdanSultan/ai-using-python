@@ -32,3 +32,10 @@
 # // for floor divide
 print(17 // 3)
 print(15/5)
+
+# % remainder operator 
+# ** power operator
+
+print(11 % 3)
+print(2**3)
+
