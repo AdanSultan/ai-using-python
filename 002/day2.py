@@ -52,3 +52,8 @@ print(2**3)
 # Conditional Statements 
 
 
+temp = int(input("Enter Temperature: "))
+if temp >= 35:
+    print("It is hot weather")
+else:
+    print("It is not a hot weather ")
