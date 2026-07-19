@@ -21,7 +21,7 @@ for i in range(rows):
     matrix.append(row)   
 
 for row in matrix:       
-    print(''.join(map(str, row)))
+    print(' '.join(map(str, row)))
 
 # While loop:
 
@@ -29,3 +29,14 @@ count = 1
 while(count <= 5):
     print(count)
     count += 1
+
+# Nested Loop 
+
+# A loop inside loop is known as nested loop 
+
+# used for grid , pattern for matrix peration we used nested loops 
+
+for i in range(3):
+    print("Outer loop")
+    for j in range(3):
+        print("   Inner loop")
