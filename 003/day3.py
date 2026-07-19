@@ -40,3 +40,12 @@ for i in range(3):
     print("Outer loop")
     for j in range(3):
         print("   Inner loop")
+
+# How we iterate Loops over data strucures 
+# string 
+
+count = 0
+for char in "banana":
+    if char == "a":
+        count += 1
+print("Total 'a' count is :", count)
