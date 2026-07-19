@@ -52,8 +52,22 @@ print(2**3)
 # Conditional Statements 
 
 
-temp = int(input("Enter Temperature: "))
-if temp >= 35:
-    print("It is hot weather")
+# temp = int(input("Enter Temperature: "))
+# if temp >= 35:
+#     print("It is hot weather")
+# else:
+#     print("It is not a hot weather ")
+
+marks = int(input("Enter your marks :"))
+if marks >= 95:
+    print("Your grade is A")
+elif marks >= 85 and marks < 95:
+    print("Your grade is B")
+elif marks >= 75 and marks < 85:
+    print("Your grade is B-")
+elif marks >= 65 and marks < 75:
+    print("Your grade is C")
+elif marks >= 55 and marks < 65:
+    print("Your grade is D")
 else:
-    print("It is not a hot weather ")
+    print("You are fail")
