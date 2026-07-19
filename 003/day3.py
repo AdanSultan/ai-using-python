@@ -54,5 +54,15 @@
 
 student = { 'name':'Adan', 'age': 23 , 'grade': 'A'}
 
-for key in student:
-    print(key)
+# for key in student:
+#     # print(key) 
+#     # print(student[key])
+#     print(key,":" , student[key])
+
+
+student_list = [
+   {"name": "Ali", "Age": 23, "grade": "A"},
+   { "name": "Hassan", "Age": 22, "grade": "B"}
+]
+for student in student_list:
+    print(f"Name: { student.get('name', '' )} | Grade: {student.get('grade', '')}")
