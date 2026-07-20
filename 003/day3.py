@@ -87,3 +87,19 @@ Name('Ali')
 Name('Sara ')
 
 learn()
+
+
+# Function parameters & return values 
+
+def add(a , b ):
+   return a + b
+print(add(1 , 9))
+# store them in a variable too
+result = add(1 , 5)
+print(result)
+
+
+def square(num):
+   return num * num
+result = square(6)
+print(result)
