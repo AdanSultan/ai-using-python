@@ -66,3 +66,10 @@ student_list = [
 ]
 for student in student_list:
     print(f"Name: { student.get('name', '' )} | Grade: {student.get('grade', '')}")
+
+
+# Define & calling Functions 
+
+# A function is a reusable block of code that perfoms a specific tasks 
+
+
