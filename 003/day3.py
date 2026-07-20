@@ -72,4 +72,18 @@ for student in student_list:
 
 # A function is a reusable block of code that perfoms a specific tasks 
 
+def learn():
+   print("Learning about functions ")
+   sum = 1 + 3
+   print(sum)
+learn()
 
+
+def Name(name):
+   print("My name is :" , name)
+
+Name('Ali')
+
+Name('Sara ')
+
+learn()
