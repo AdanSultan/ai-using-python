@@ -103,3 +103,19 @@ def square(num):
    return num * num
 result = square(6)
 print(result)
+
+
+# Variable scope in pythons
+# local vs global
+#local : Vaiables that come inside the function are called local 
+# global : that comes outside the function 
+# best is local 
+
+def show():
+     x = 5 # local variable
+     print(x)
+show()
+
+x = 10 # global 
+print(x)
+show() # local variables get more preference than global 
