@@ -120,6 +120,6 @@ x = 10 # global
 print(x)
 show() # local variables get more preference than global 
 
-
-
-#  dgcjehcek
+#
+# New c
+#  
