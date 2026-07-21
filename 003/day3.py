@@ -121,33 +121,4 @@ print(x)
 show() # local variables get more preference than global 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Ha ha 
