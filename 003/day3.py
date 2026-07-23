@@ -124,3 +124,5 @@ show() # local variables get more preference than global
 def mul(n):
    return n * n
 print(mul(5))
+
+
