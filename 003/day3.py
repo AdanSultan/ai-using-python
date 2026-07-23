@@ -125,4 +125,5 @@ def mul(n):
    return n * n
 print(mul(5))
 
-# What we learn today
+# What we learn today:
+# You have to learn something new
