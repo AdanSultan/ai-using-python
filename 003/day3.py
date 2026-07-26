@@ -128,6 +128,3 @@ print(mul(5))
 # What we learn today:
 # You have to learn something new
 # Report title thk ho jaya bs
-
-
-# Still wasting my time don't know wat to do 
