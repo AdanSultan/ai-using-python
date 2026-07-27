@@ -131,3 +131,5 @@ print(mul(5))
 #Simon 
 # Just space 
 #kuch bi nhi ho raha kue..
+# Just space 
+#kuch bi nhi ho raha kue..
