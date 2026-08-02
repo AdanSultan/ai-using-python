@@ -11,10 +11,10 @@
 # Google data search , kaggle , Github , UCI machine learning repository 
 # Few libraries for built in dataset , seaborn , socket-learn , yahu finance stock market data 
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import pandas as pd
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 
-df = sns.load_dataset('titanic')   # dataset ko variable mein store karo
-print(df.head())                    # pehli 5 rows print karo
+# df = sns.load_dataset('titanic')   # dataset ko variable mein store karo
+# print(df.head())                    # pehli 5 rows print karo
