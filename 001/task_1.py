@@ -29,3 +29,7 @@ ownStory = {
 }
 
 print(ownStory)
+
+
+
+print(ownStory.keys())
