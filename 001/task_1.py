@@ -33,3 +33,9 @@ print(ownStory)
 
 
 print(ownStory.keys())
+
+# Bussiness Canvas Model 
+
+# End goal is create a product 
+
+# Soft product 
