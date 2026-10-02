@@ -1,0 +1,116 @@
+{
+  "title": "Pakistan Inflation Analysis: 2020-2026",
+  "rows": 2916,
+  "date_range": {
+    "start": "2020-01-01",
+    "end": "2026-09-01"
+  },
+  "unique_months": 81,
+  "categories": 12,
+  "regions": 3,
+  "duplicate_rows": 0,
+  "missing_months": [],
+  "missing_values_by_field": {
+    "Date": 0,
+    "Year": 0,
+    "Month": 0,
+    "Month_Number": 0,
+    "Financial_Year": 0,
+    "Region": 0,
+    "Category": 0,
+    "CPI_Index": 2601,
+    "MoM_Inflation": 2601,
+    "YoY_Inflation": 2601,
+    "Weight": 2601,
+    "Source": 0
+  },
+  "source_files_used": [
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-April-2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-April-2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-April-2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-August-2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-August-2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-August-2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-February-2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-February-2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-February-2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-January-2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-January-2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-January-2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-July-2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-July-2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-July-2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-June-2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-June-2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-June-2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-March-2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-March-2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-March-2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-May-2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-May-2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-May-2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-September2026.pdf (PBS monthly review, National group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-September2026.pdf (PBS monthly review, Rural group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-September2026.pdf (PBS monthly review, Urban group table)",
+    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/indices_and_growth_rates_historical-1.pdf (PBS historical indices; category unavailable)"
+  ],
+  "methodology": "PBS 2015-16 CPI base only. Historical headline PDF covers the index series; monthly review files provide group tables where published.",
+  "base_year_changes": "No different base year was combined. Older 2007-08 PBS files were excluded.",
+  "inconsistencies": [
+    "PBS historical indices contain headline National/Urban/Rural series but not monthly 12-group tables for every month.",
+    "Group rows are null where no official 2015-16 PBS monthly review table was available or parseable.",
+    "The historical PDF runs through June 2026; the latest discovered PBS monthly review extends the output to its published month."
+  ],
+  "headline_press_release_validation": [
+    {
+      "month": "2020-09-01",
+      "historical_pdf_national_yoy": 9.0,
+      "monthly_release_national_yoy": null,
+      "monthly_release_found": false,
+      "status": "not independently matched"
+    },
+    {
+      "month": "2021-09-01",
+      "historical_pdf_national_yoy": 9.0,
+      "monthly_release_national_yoy": null,
+      "monthly_release_found": false,
+      "status": "not independently matched"
+    },
+    {
+      "month": "2022-09-01",
+      "historical_pdf_national_yoy": 23.2,
+      "monthly_release_national_yoy": null,
+      "monthly_release_found": false,
+      "status": "not independently matched"
+    },
+    {
+      "month": "2023-09-01",
+      "historical_pdf_national_yoy": 31.4,
+      "monthly_release_national_yoy": null,
+      "monthly_release_found": false,
+      "status": "not independently matched"
+    },
+    {
+      "month": "2024-09-01",
+      "historical_pdf_national_yoy": 6.9,
+      "monthly_release_national_yoy": null,
+      "monthly_release_found": false,
+      "status": "not independently matched"
+    },
+    {
+      "month": "2025-09-01",
+      "historical_pdf_national_yoy": 5.6,
+      "monthly_release_national_yoy": null,
+      "monthly_release_found": false,
+      "status": "not independently matched"
+    },
+    {
+      "month": "2026-09-01",
+      "historical_pdf_national_yoy": null,
+      "monthly_release_national_yoy": 8.2,
+      "monthly_release_found": true,
+      "status": "not independently matched"
+    }
+  ],
+  "official_pbs_page": "https://www.pbs.gov.pk/price-statistics/"
+}

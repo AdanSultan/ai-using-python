@@ -1,0 +1,6 @@
+source,source_url,coverage,status,notes,retrieved_at
+Pakistan Bureau of Statistics,https://www.pbs.gov.pk/price-statistics,"Monthly CPI, urban/rural inflation, commodity prices",manual_download_required,The page is dynamic and its downloadable report URL changes by release.,2026-10-02T17:52:32+00:00
+State Bank of Pakistan,https://easydata.sbp.org.pk/,"Inflation Monitor, core inflation, monetary policy publications",portal_or_download_required,The public portal exposes datasets; its API requires an account.,2026-10-02T17:52:32+00:00
+Trading Economics,https://tradingeconomics.com/pakistan/inflation-cpi,"Monthly CPI inflation, historical charts and forecasts",latest_page_observation,Public HTML was used for the latest observation; historical API requires credentials.,2026-10-02T17:52:32+00:00
+World Bank,https://api.worldbank.org/v2/country/PAK/indicator/FP.CPI.TOTL.ZG?date=2020:2026&format=json&per_page=100,Annual CPI inflation,collected,Indicator FP.CPI.TOTL.ZG; data are annual percent changes.,2026-10-02T17:52:32+00:00
+MacroTrends,https://www.macrotrends.net/global-metrics/countries/PAK/pakistan/inflation-rate-cpi,Annual historical CPI inflation table,blocked,The site did not provide machine-readable content to this low-volume request.,2026-10-02T17:52:32+00:00
