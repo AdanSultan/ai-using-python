@@ -198,6 +198,25 @@ def parse_group_rows(url: str, title: str) -> dict[tuple[date, str, str], dict[s
 	return result
 
 
+def parse_headline_rows(url: str, title: str) -> dict[date, dict[str, float]]:
+	result = {}
+	for page in pdf_pages(url):
+		if "National Consumer Price Index" not in page or "by Group" not in page:
+			continue
+		period = report_period(page, title)
+		normalized = re.sub(r"\s+", " ", page.replace("\u00ad", " "))
+		match = re.search(
+			r"General\s+100\.00\s+(-?\d+(?:\.\d+)?)\s+"
+			r"-?\d+(?:\.\d+)?\s+-?\d+(?:\.\d+)?\s+"
+			r"(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)",
+			normalized,
+		)
+		if period and match:
+			index, mom, yoy = map(float, match.groups())
+			result[period] = {"index": index, "mom": mom, "yoy": yoy}
+	return result
+
+
 def make_row(period: date, region: str, category: str, values: dict, source: str) -> dict:
 	return {
 		"Date": period.isoformat(),
@@ -215,18 +234,19 @@ def make_row(period: date, region: str, category: str, values: dict, source: str
 	}
 
 
-def validate_headlines(headlines: dict, group_values: dict) -> list[dict]:
+def validate_headlines(headlines: dict, release_headlines: dict) -> list[dict]:
 	rows = []
 	for period in [month_date(year, 9) for year in range(2020, 2027)]:
 		expected = headlines.get(period, {}).get("National")
-		value = group_values.get((period, "National", CATEGORIES[0]))
-		release_value = value.get("YoY_Inflation") if value else None
+		value = release_headlines.get(period)
 		rows.append({
 			"month": period.isoformat(),
 			"historical_pdf_national_yoy": expected.get("yoy") if expected else None,
-			"monthly_release_national_yoy": release_value,
-			"monthly_release_found": release_value is not None,
-			"status": "matched" if expected and release_value is not None and abs(expected["yoy"] - release_value) <= 0.1 else "not independently matched",
+			"historical_pdf_national_mom": expected.get("mom") if expected else None,
+			"monthly_release_national_yoy": value.get("yoy") if value else None,
+			"monthly_release_national_mom": value.get("mom") if value else None,
+			"monthly_release_found": value is not None,
+			"status": "matched" if expected and value and abs(expected["yoy"] - value["yoy"]) <= 0.1 and abs(expected["mom"] - value["mom"]) <= 0.1 else "not independently matched",
 		})
 	return rows
 
@@ -235,9 +255,11 @@ def main() -> None:
 	headlines = historical_headline()
 	reports = discover_reports()
 	group_values = {}
+	release_headlines = {}
 	for url, title in reports.items():
 		try:
 			group_values.update(parse_group_rows(url, title))
+			release_headlines.update(parse_headline_rows(url, title))
 		except Exception as error:
 			print(f"Skipping unreadable PBS report {url}: {error}")
 
@@ -286,7 +308,7 @@ def main() -> None:
 			"Group rows are null where no official 2015-16 PBS monthly review table was available or parseable.",
 			"The historical PDF runs through June 2026; the latest discovered PBS monthly review extends the output to its published month.",
 		],
-		"headline_press_release_validation": validate_headlines(headlines, group_values),
+		"headline_press_release_validation": validate_headlines(headlines, release_headlines),
 		"official_pbs_page": PBS_PAGE,
 	}
 	QUALITY_REPORT.write_text(json.dumps(quality, indent=2), encoding="utf-8")
