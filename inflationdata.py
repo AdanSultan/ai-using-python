@@ -52,7 +52,7 @@ GROUP_PATTERNS = {
 	CATEGORIES[1]: r"Alcoholic\s+Bev(?:erages)?\.?\s*&?\s*Tobacco",
 	CATEGORIES[2]: r"Clothing\s*(?:&|and)\s*Footwear",
 	CATEGORIES[3]: r"Housing,\s*Water,\s*Electricity,\s*Gas\s*&?\s*(?:Other\s+)?Fuels",
-	CATEGORIES[4]: r"Furnishing\s*&\s*Household\s+Equip\.?\s*(?:&|and)?\s*Maintenance",
+	CATEGORIES[4]: r"Furnishing\s*&\s*Household\s+Equip(?:ment)?\.?\s*(?:&|and)?\s*Maintenance",
 	CATEGORIES[5]: r"Health",
 	CATEGORIES[6]: r"Transport",
 	CATEGORIES[7]: r"Communication",
@@ -135,17 +135,12 @@ def historical_headline() -> dict[date, dict[str, dict[str, float]]]:
 
 def discover_reports() -> dict[str, str]:
 	urls: dict[str, str] = {}
-	for term in ("Monthly Review", "CPI Monthly Review", "monthly_review"):
-		response = requests.get(f"{MEDIA_API}?search={quote(term)}&per_page=100", timeout=60)
-		response.raise_for_status()
-		for item in response.json():
-			url = item.get("source_url", "")
-			if (
-				url.lower().endswith(".pdf")
-				and "review" in url.lower()
-				and "2026" in url
-			):
-				urls[url] = item.get("title", {}).get("rendered", url)
+	response = requests.get(f"{MEDIA_API}?search={quote('Monthly Review')}&per_page=100", timeout=30)
+	response.raise_for_status()
+	for item in response.json():
+		url = item.get("source_url", "")
+		if url.lower().endswith(".pdf") and "review" in url.lower() and "2026" in url:
+			urls[url] = item.get("title", {}).get("rendered", url)
 	return urls
 
 
@@ -259,7 +254,8 @@ def main() -> None:
 	for url, title in reports.items():
 		try:
 			group_values.update(parse_group_rows(url, title))
-			release_headlines.update(parse_headline_rows(url, title))
+			if "September2026" in url:
+				release_headlines.update(parse_headline_rows(url, title))
 		except Exception as error:
 			print(f"Skipping unreadable PBS report {url}: {error}")
 

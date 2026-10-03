@@ -18,10 +18,10 @@
     "Financial_Year": 0,
     "Region": 0,
     "Category": 0,
-    "CPI_Index": 2601,
-    "MoM_Inflation": 2601,
-    "YoY_Inflation": 2601,
-    "Weight": 2601,
+    "CPI_Index": 2592,
+    "MoM_Inflation": 2592,
+    "YoY_Inflation": 2592,
+    "Weight": 2592,
     "Source": 0
   },
   "source_files_used": [
@@ -65,49 +65,63 @@
     {
       "month": "2020-09-01",
       "historical_pdf_national_yoy": 9.0,
+      "historical_pdf_national_mom": 1.5418502202643403,
       "monthly_release_national_yoy": null,
+      "monthly_release_national_mom": null,
       "monthly_release_found": false,
       "status": "not independently matched"
     },
     {
       "month": "2021-09-01",
       "historical_pdf_national_yoy": 9.0,
+      "historical_pdf_national_mom": 2.100271002710019,
       "monthly_release_national_yoy": null,
+      "monthly_release_national_mom": null,
       "monthly_release_found": false,
       "status": "not independently matched"
     },
     {
       "month": "2022-09-01",
       "historical_pdf_national_yoy": 23.2,
+      "historical_pdf_national_mom": -1.1182108626198173,
       "monthly_release_national_yoy": null,
+      "monthly_release_national_mom": null,
       "monthly_release_found": false,
       "status": "not independently matched"
     },
     {
       "month": "2023-09-01",
       "historical_pdf_national_yoy": 31.4,
+      "historical_pdf_national_mom": 1.9640618470539106,
       "monthly_release_national_yoy": null,
+      "monthly_release_national_mom": null,
       "monthly_release_found": false,
       "status": "not independently matched"
     },
     {
       "month": "2024-09-01",
       "historical_pdf_national_yoy": 6.9,
+      "historical_pdf_national_mom": -0.49561570720549897,
       "monthly_release_national_yoy": null,
+      "monthly_release_national_mom": null,
       "monthly_release_found": false,
       "status": "not independently matched"
     },
     {
       "month": "2025-09-01",
       "historical_pdf_national_yoy": 5.6,
+      "historical_pdf_national_mom": 1.9985196150999363,
       "monthly_release_national_yoy": null,
+      "monthly_release_national_mom": null,
       "monthly_release_found": false,
       "status": "not independently matched"
     },
     {
       "month": "2026-09-01",
       "historical_pdf_national_yoy": null,
-      "monthly_release_national_yoy": 8.2,
+      "historical_pdf_national_mom": null,
+      "monthly_release_national_yoy": 10.26,
+      "monthly_release_national_mom": 1.27,
       "monthly_release_found": true,
       "status": "not independently matched"
     }
