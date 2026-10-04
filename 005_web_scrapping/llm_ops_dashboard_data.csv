@@ -1,0 +1,1001 @@
+timestamp,user_id,department,model_name,input_tokens,output_tokens,cost_usd,latency_ms,status
+2026-09-01 00:33:52,usr_3615,Product,claude-3-5-sonnet,3149,2321,0.04426,1347,Success
+2026-09-01 02:50:38,usr_7873,Marketing,llama-3-70b,4906,523,0.00326,635,Success
+2026-09-01 02:52:09,usr_9279,Data Science,claude-3-5-sonnet,1522,662,0.0145,1069,Success
+2026-09-01 03:29:23,usr_2679,Sales,gpt-4o,1407,1721,0.02073,620,Success
+2026-09-01 04:33:18,usr_1488,Sales,claude-3-5-sonnet,3587,1067,0.02677,904,Success
+2026-09-01 05:05:17,usr_3615,Sales,claude-3-5-sonnet,4037,2060,0.04301,1400,Success
+2026-09-01 05:40:03,usr_7912,Engineering,claude-3-5-sonnet,2198,2820,0.04889,865,Success
+2026-09-01 05:59:05,usr_5557,Data Science,claude-3-5-sonnet,4209,2349,0.04786,1508,Success
+2026-09-01 07:02:30,usr_1488,Sales,gpt-4o,1233,1956,0.02264,636,Success
+2026-09-01 08:26:14,usr_1106,Product,gpt-4o,770,562,0.00754,1049,Success
+2026-09-01 09:18:13,usr_4582,Data Science,llama-3-70b,5663,759,0.00385,538,Success
+2026-09-01 09:26:42,usr_5012,Data Science,claude-3-5-sonnet,1923,2115,0.03749,907,Success
+2026-09-01 10:52:12,usr_8359,Engineering,gpt-4o,895,1832,0.02056,771,Success
+2026-09-01 13:02:02,usr_9279,Data Science,gpt-4o,2243,1287,0.01848,1003,Success
+2026-09-01 13:06:33,usr_5012,Sales,claude-3-5-sonnet,2597,1560,0.03119,1057,Success
+2026-09-01 13:08:53,usr_4611,Product,gpt-4o,3396,509,0.01358,609,Success
+2026-09-01 13:28:44,usr_7873,Sales,claude-3-5-sonnet,1067,1348,0.02342,1095,Success
+2026-09-01 13:41:43,usr_4611,Engineering,claude-3-5-sonnet,4343,2066,0.04402,1080,Success
+2026-09-01 14:57:18,usr_8359,Data Science,gpt-4o,802,0,0.00261,176,Rate_Limit_Error
+2026-09-01 15:41:32,usr_3615,Product,claude-3-5-sonnet,2664,1329,0.02793,1540,Success
+2026-09-01 15:58:08,usr_4611,Product,llama-3-70b,369,558,0.00056,429,Success
+2026-09-01 16:12:05,usr_9935,Sales,claude-3-5-sonnet,2768,2350,0.04355,1461,Success
+2026-09-01 19:20:31,usr_2824,Engineering,claude-3-5-sonnet,3319,1380,0.03066,859,Success
+2026-09-01 20:14:44,usr_9935,Sales,llama-3-70b,2046,589,0.00158,546,Success
+2026-09-01 21:46:07,usr_8359,Data Science,claude-3-5-sonnet,3586,856,0.0236,1100,Success
+2026-09-01 22:39:37,usr_1434,Sales,gpt-4o,2197,506,0.01055,751,Success
+2026-09-01 23:07:38,usr_3286,Data Science,llama-3-70b,1538,1449,0.00179,528,Success
+2026-09-01 23:45:04,usr_5506,Data Science,claude-3-5-sonnet,3651,1823,0.0383,1083,Success
+2026-09-02 03:42:59,usr_4257,Product,gpt-4o,1626,1811,0.02218,810,Success
+2026-09-02 08:10:37,usr_1409,Product,claude-3-5-sonnet,4576,954,0.02804,1165,Success
+2026-09-02 09:10:22,usr_7873,Sales,llama-3-70b,1494,1002,0.0015,322,Success
+2026-09-02 09:12:04,usr_2824,Product,llama-3-70b,5581,787,0.00382,510,Success
+2026-09-02 09:26:43,usr_4257,Product,claude-3-5-sonnet,3640,2120,0.04272,1254,Success
+2026-09-02 10:38:14,usr_2824,Marketing,gpt-4o,3812,1166,0.02119,1142,Success
+2026-09-02 10:52:50,usr_7912,Marketing,claude-3-5-sonnet,4827,802,0.02651,1033,Success
+2026-09-02 11:05:44,usr_3615,Sales,gpt-4o,2557,1932,0.02571,1080,Success
+2026-09-02 11:19:11,usr_2679,Marketing,claude-3-5-sonnet,2372,1327,0.02702,940,Success
+2026-09-02 12:37:57,usr_8359,Data Science,gpt-4o,1546,548,0.00934,661,Success
+2026-09-02 12:39:53,usr_9935,Sales,claude-3-5-sonnet,1557,1736,0.03071,856,Success
+2026-09-02 12:43:07,usr_4257,Engineering,llama-3-70b,5365,229,0.00336,687,Success
+2026-09-02 13:40:14,usr_2824,Marketing,llama-3-70b,5101,1482,0.00395,351,Success
+2026-09-02 14:09:49,usr_2824,Data Science,gpt-4o,847,892,0.01104,922,Success
+2026-09-02 15:27:51,usr_2824,Data Science,llama-3-70b,3038,612,0.00219,426,Success
+2026-09-02 16:52:49,usr_1488,Data Science,llama-3-70b,3950,1096,0.00303,322,Success
+2026-09-02 18:32:10,usr_5012,Marketing,llama-3-70b,5629,176,0.00348,492,Success
+2026-09-02 18:35:14,usr_9928,Product,gpt-4o,790,1649,0.01847,660,Success
+2026-09-02 18:40:50,usr_3615,Marketing,llama-3-70b,5585,353,0.00356,629,Success
+2026-09-02 19:05:03,usr_7873,Product,llama-3-70b,5527,0,0.0,5000,Timeout_Error
+2026-09-02 19:39:17,usr_7873,Data Science,llama-3-70b,2191,1321,0.00211,418,Success
+2026-09-02 21:52:17,usr_9928,Engineering,gpt-4o,2427,1262,0.01869,1052,Success
+2026-09-02 22:24:22,usr_1106,Product,claude-3-5-sonnet,1123,2387,0.03917,1523,Success
+2026-09-02 22:42:41,usr_4657,Marketing,llama-3-70b,4031,1494,0.00331,375,Success
+2026-09-02 22:44:22,usr_9928,Data Science,gpt-4o,2806,585,0.01287,1104,Success
+2026-09-02 23:29:45,usr_2679,Sales,claude-3-5-sonnet,1366,2075,0.03522,1489,Success
+2026-09-03 00:16:32,usr_7873,Sales,claude-3-5-sonnet,4033,0,0.00818,5000,Timeout_Error
+2026-09-03 00:54:08,usr_8359,Product,claude-3-5-sonnet,3728,2192,0.04406,1436,Success
+2026-09-03 01:02:08,usr_5557,Marketing,claude-3-5-sonnet,4543,1010,0.02878,1420,Success
+2026-09-03 01:19:31,usr_5012,Engineering,gpt-4o,2701,477,0.01152,997,Success
+2026-09-03 01:41:23,usr_7912,Product,claude-3-5-sonnet,2859,1769,0.03511,1431,Success
+2026-09-03 01:50:25,usr_1434,Marketing,llama-3-70b,4404,950,0.00321,516,Success
+2026-09-03 02:12:51,usr_3615,Data Science,llama-3-70b,5800,1244,0.00423,411,Success
+2026-09-03 03:33:49,usr_8359,Marketing,gpt-4o,2865,1753,0.02469,919,Success
+2026-09-03 03:58:34,usr_4611,Marketing,claude-3-5-sonnet,3033,1772,0.03568,1076,Success
+2026-09-03 06:14:57,usr_2679,Sales,gpt-4o,2121,647,0.01177,913,Success
+2026-09-03 08:31:57,usr_5557,Data Science,gpt-4o,529,601,0.00733,1005,Success
+2026-09-03 09:27:48,usr_2424,Data Science,llama-3-70b,5012,524,0.00332,650,Success
+2026-09-03 09:53:37,usr_7912,Sales,llama-3-70b,4096,559,0.00279,313,Success
+2026-09-03 10:04:32,usr_9935,Marketing,llama-3-70b,4276,538,0.00289,576,Success
+2026-09-03 10:34:36,usr_4657,Marketing,llama-3-70b,2108,413,0.00151,325,Success
+2026-09-03 11:23:11,usr_4611,Data Science,llama-3-70b,848,1248,0.00126,663,Success
+2026-09-03 12:07:13,usr_4611,Data Science,claude-3-5-sonnet,2020,2773,0.04766,1038,Success
+2026-09-03 13:32:06,usr_1520,Marketing,llama-3-70b,5434,488,0.00355,619,Success
+2026-09-03 13:47:20,usr_7873,Marketing,gpt-4o,874,668,0.00886,1189,Success
+2026-09-03 15:16:10,usr_5557,Sales,claude-3-5-sonnet,1750,2427,0.04165,841,Success
+2026-09-03 16:06:28,usr_4811,Engineering,gpt-4o,2624,0,0.00391,110,Rate_Limit_Error
+2026-09-03 16:50:26,usr_4611,Marketing,gpt-4o,1438,1934,0.02294,939,Success
+2026-09-03 17:32:48,usr_5012,Engineering,claude-3-5-sonnet,1867,2871,0.04867,1352,Success
+2026-09-03 18:11:16,usr_3286,Data Science,claude-3-5-sonnet,3578,2317,0.04549,935,Success
+2026-09-03 18:41:43,usr_4611,Sales,claude-3-5-sonnet,4326,833,0.02547,810,Success
+2026-09-03 19:32:33,usr_5557,Product,llama-3-70b,1688,1480,0.0019,318,Success
+2026-09-03 20:53:43,usr_9928,Engineering,claude-3-5-sonnet,4546,2813,0.05583,1316,Success
+2026-09-03 22:27:00,usr_1434,Data Science,llama-3-70b,5793,503,0.00378,486,Success
+2026-09-03 22:54:04,usr_1488,Data Science,gpt-4o,1687,1811,0.02233,908,Success
+2026-09-03 23:09:31,usr_4611,Engineering,claude-3-5-sonnet,1175,1394,0.02444,1518,Success
+2026-09-03 23:42:51,usr_1409,Product,claude-3-5-sonnet,3951,0,0.00737,5000,Timeout_Error
+2026-09-03 23:50:58,usr_8359,Data Science,claude-3-5-sonnet,4552,0,0.00431,202,Rate_Limit_Error
+2026-09-03 23:59:35,usr_1434,Engineering,claude-3-5-sonnet,4742,1623,0.03857,1003,Success
+2026-09-04 00:47:16,usr_2679,Data Science,claude-3-5-sonnet,2647,2995,0.05287,1521,Success
+2026-09-04 02:40:27,usr_2424,Engineering,gpt-4o,1866,1779,0.02245,733,Success
+2026-09-04 02:41:36,usr_9935,Data Science,llama-3-70b,605,458,0.00064,513,Success
+2026-09-04 03:52:11,usr_1409,Marketing,claude-3-5-sonnet,3361,2144,0.04224,1556,Success
+2026-09-04 04:09:51,usr_9928,Marketing,gpt-4o,1516,442,0.00821,1171,Success
+2026-09-04 04:19:37,usr_4582,Data Science,llama-3-70b,3230,737,0.00238,598,Success
+2026-09-04 04:48:44,usr_8359,Engineering,gpt-4o,3236,904,0.01713,1154,Success
+2026-09-04 05:14:51,usr_1434,Engineering,claude-3-5-sonnet,1364,2305,0.03867,1089,Success
+2026-09-04 05:40:31,usr_4811,Engineering,gpt-4o,3983,1545,0.02541,1130,Success
+2026-09-04 06:33:23,usr_7873,Sales,llama-3-70b,3921,205,0.00248,404,Success
+2026-09-04 07:47:02,usr_2535,Sales,gpt-4o,2710,644,0.01322,657,Success
+2026-09-04 09:24:55,usr_7873,Sales,gpt-4o,1154,1866,0.02154,935,Success
+2026-09-04 09:42:47,usr_8359,Product,gpt-4o,551,1649,0.01787,740,Success
+2026-09-04 12:49:12,usr_9935,Marketing,gpt-4o,1319,387,0.00717,616,Success
+2026-09-04 16:01:27,usr_9928,Marketing,llama-3-70b,820,648,0.00088,631,Success
+2026-09-04 17:26:26,usr_4257,Data Science,gpt-4o,2090,697,0.01219,861,Success
+2026-09-04 17:29:43,usr_7912,Engineering,claude-3-5-sonnet,2884,412,0.01483,1563,Success
+2026-09-04 18:47:34,usr_1409,Marketing,gpt-4o,705,1396,0.01572,1088,Success
+2026-09-04 19:20:11,usr_2824,Engineering,claude-3-5-sonnet,3994,804,0.02404,1127,Success
+2026-09-04 19:47:31,usr_7912,Product,llama-3-70b,3186,548,0.00224,625,Success
+2026-09-04 20:00:44,usr_3286,Engineering,claude-3-5-sonnet,4354,0,0.00788,5000,Timeout_Error
+2026-09-04 20:16:56,usr_2535,Engineering,llama-3-70b,2595,561,0.00189,377,Success
+2026-09-04 20:21:17,usr_5012,Marketing,claude-3-5-sonnet,4076,2201,0.04524,1195,Success
+2026-09-04 20:24:59,usr_4582,Product,gpt-4o,2456,270,0.00884,970,Success
+2026-09-04 21:05:17,usr_4811,Sales,claude-3-5-sonnet,4421,2096,0.0447,1079,Success
+2026-09-04 21:13:07,usr_9935,Sales,claude-3-5-sonnet,923,1085,0.01904,1082,Success
+2026-09-05 00:59:58,usr_2679,Sales,gpt-4o,2417,1840,0.02444,662,Success
+2026-09-05 01:27:22,usr_5557,Engineering,llama-3-70b,793,241,0.00062,541,Success
+2026-09-05 01:32:06,usr_1434,Sales,claude-3-5-sonnet,1574,2303,0.03927,1476,Success
+2026-09-05 02:24:35,usr_2535,Data Science,claude-3-5-sonnet,3062,2528,0.04711,1269,Success
+2026-09-05 03:10:17,usr_5012,Product,claude-3-5-sonnet,2032,0,0.00493,5000,Timeout_Error
+2026-09-05 05:11:47,usr_1434,Engineering,claude-3-5-sonnet,1132,2155,0.03572,1085,Success
+2026-09-05 05:32:24,usr_3615,Data Science,claude-3-5-sonnet,4884,2525,0.05253,1275,Success
+2026-09-05 06:57:41,usr_4811,Product,gpt-4o,3970,1898,0.02891,939,Success
+2026-09-05 06:57:56,usr_4811,Engineering,gpt-4o,2100,0,0.00218,5000,Timeout_Error
+2026-09-05 06:58:36,usr_5557,Marketing,gpt-4o,3184,1222,0.02018,1005,Success
+2026-09-05 08:41:20,usr_2824,Data Science,llama-3-70b,5023,0,0.0,5000,Timeout_Error
+2026-09-05 08:49:03,usr_2535,Sales,claude-3-5-sonnet,1292,1457,0.02573,1071,Success
+2026-09-05 09:07:21,usr_3286,Engineering,llama-3-70b,2971,176,0.00189,535,Success
+2026-09-05 09:42:04,usr_2424,Engineering,gpt-4o,3472,0,0.00451,5000,Timeout_Error
+2026-09-05 11:16:50,usr_5012,Engineering,gpt-4o,2080,0,0.00323,5000,Timeout_Error
+2026-09-05 12:57:55,usr_2679,Product,gpt-4o,1768,1085,0.01527,1086,Success
+2026-09-05 14:51:55,usr_4257,Engineering,gpt-4o,3171,0,0.0042,5000,Timeout_Error
+2026-09-05 15:28:40,usr_7912,Marketing,llama-3-70b,760,820,0.00095,559,Success
+2026-09-05 15:28:49,usr_1488,Data Science,llama-3-70b,1193,1025,0.00133,557,Success
+2026-09-05 15:29:32,usr_1488,Engineering,claude-3-5-sonnet,2167,1906,0.03509,961,Success
+2026-09-05 15:56:12,usr_1434,Engineering,llama-3-70b,3426,1185,0.00277,452,Success
+2026-09-05 15:59:12,usr_7873,Sales,gpt-4o,3143,1207,0.01993,711,Success
+2026-09-05 16:18:21,usr_5012,Data Science,claude-3-5-sonnet,2849,2213,0.04174,1186,Success
+2026-09-05 16:56:00,usr_1488,Marketing,gpt-4o,2084,1962,0.02483,1182,Success
+2026-09-05 17:24:12,usr_9279,Engineering,claude-3-5-sonnet,4498,1647,0.0382,895,Success
+2026-09-05 17:25:13,usr_4582,Product,claude-3-5-sonnet,2999,1722,0.03483,1090,Success
+2026-09-05 17:41:19,usr_9279,Data Science,claude-3-5-sonnet,934,551,0.01107,1147,Success
+2026-09-05 18:08:33,usr_1488,Sales,claude-3-5-sonnet,3083,1422,0.03058,916,Success
+2026-09-05 18:52:14,usr_2424,Sales,claude-3-5-sonnet,4495,2981,0.0582,1214,Success
+2026-09-05 19:40:10,usr_4257,Product,gpt-4o,2393,0,0.00315,263,Rate_Limit_Error
+2026-09-05 20:50:56,usr_3615,Engineering,claude-3-5-sonnet,3079,0,0.00758,5000,Timeout_Error
+2026-09-05 21:40:34,usr_9928,Marketing,llama-3-70b,732,803,0.00092,573,Success
+2026-09-05 21:59:17,usr_4257,Data Science,llama-3-70b,569,467,0.00062,461,Success
+2026-09-05 22:18:15,usr_2424,Marketing,claude-3-5-sonnet,1460,966,0.01887,954,Success
+2026-09-05 22:20:33,usr_9935,Product,llama-3-70b,858,1134,0.0012,381,Success
+2026-09-05 22:49:29,usr_1409,Marketing,gpt-4o,679,1820,0.0199,804,Success
+2026-09-05 23:04:57,usr_2824,Data Science,llama-3-70b,555,1291,0.00111,596,Success
+2026-09-06 00:16:13,usr_4657,Data Science,llama-3-70b,5287,1180,0.00388,516,Success
+2026-09-06 02:46:31,usr_5506,Data Science,gpt-4o,1025,0,0.00361,5000,Timeout_Error
+2026-09-06 03:16:39,usr_4657,Engineering,llama-3-70b,3493,733,0.00254,417,Success
+2026-09-06 03:42:26,usr_4582,Marketing,claude-3-5-sonnet,2360,1713,0.03277,1152,Success
+2026-09-06 03:53:46,usr_4657,Marketing,claude-3-5-sonnet,3610,2265,0.0448,1011,Success
+2026-09-06 04:38:59,usr_4657,Sales,claude-3-5-sonnet,3938,1374,0.03242,1476,Success
+2026-09-06 05:51:43,usr_7912,Data Science,gpt-4o,1380,1911,0.02256,935,Success
+2026-09-06 06:52:08,usr_9928,Engineering,gpt-4o,3206,505,0.01307,1063,Success
+2026-09-06 07:35:38,usr_7873,Data Science,claude-3-5-sonnet,1019,1635,0.02758,1010,Success
+2026-09-06 09:41:56,usr_4811,Marketing,llama-3-70b,2736,900,0.00218,613,Success
+2026-09-06 10:31:07,usr_2535,Marketing,claude-3-5-sonnet,3355,2218,0.04333,1031,Success
+2026-09-06 10:38:19,usr_5506,Sales,claude-3-5-sonnet,1539,2025,0.03499,1541,Success
+2026-09-06 11:52:21,usr_3286,Engineering,claude-3-5-sonnet,4078,2269,0.04627,1078,Success
+2026-09-06 12:39:18,usr_4811,Product,gpt-4o,3123,1854,0.02635,945,Success
+2026-09-06 12:42:06,usr_3286,Product,claude-3-5-sonnet,3450,1416,0.03159,806,Success
+2026-09-06 12:44:07,usr_4657,Data Science,claude-3-5-sonnet,4338,1263,0.03196,1425,Success
+2026-09-06 12:57:54,usr_5557,Engineering,llama-3-70b,4979,1158,0.00368,592,Success
+2026-09-06 13:40:15,usr_1434,Data Science,llama-3-70b,5908,656,0.00394,445,Success
+2026-09-06 13:44:48,usr_5012,Engineering,gpt-4o,3673,1191,0.02109,1041,Success
+2026-09-06 14:54:23,usr_5506,Data Science,llama-3-70b,1860,205,0.00124,437,Success
+2026-09-06 14:55:07,usr_3615,Product,gpt-4o,3820,1710,0.02665,959,Success
+2026-09-06 15:21:40,usr_3286,Marketing,llama-3-70b,775,109,0.00053,531,Success
+2026-09-06 16:04:46,usr_1106,Engineering,claude-3-5-sonnet,2693,2270,0.04213,1103,Success
+2026-09-06 16:25:12,usr_9279,Marketing,llama-3-70b,5256,1147,0.00384,328,Success
+2026-09-06 16:28:33,usr_5557,Marketing,gpt-4o,2810,429,0.01132,663,Success
+2026-09-06 19:02:46,usr_2535,Sales,llama-3-70b,5675,1167,0.00411,446,Success
+2026-09-06 19:08:24,usr_8359,Data Science,gpt-4o,954,1624,0.01863,788,Success
+2026-09-06 19:38:50,usr_1520,Sales,gpt-4o,1695,1047,0.01471,997,Success
+2026-09-06 20:34:34,usr_7873,Product,claude-3-5-sonnet,1484,1669,0.02949,880,Success
+2026-09-06 21:08:20,usr_5012,Product,claude-3-5-sonnet,1758,1149,0.02251,1182,Success
+2026-09-06 21:27:12,usr_4611,Product,llama-3-70b,2412,754,0.0019,672,Success
+2026-09-06 22:29:06,usr_4811,Marketing,llama-3-70b,5579,1053,0.00398,540,Success
+2026-09-06 22:42:40,usr_1106,Marketing,claude-3-5-sonnet,893,1486,0.02497,1014,Success
+2026-09-06 22:54:37,usr_5012,Data Science,claude-3-5-sonnet,3039,675,0.01924,1380,Success
+2026-09-07 00:12:33,usr_1434,Sales,gpt-4o,2980,397,0.01142,781,Success
+2026-09-07 01:50:42,usr_1434,Data Science,gpt-4o,2421,443,0.01048,859,Success
+2026-09-07 01:57:10,usr_9279,Product,llama-3-70b,3652,319,0.00238,430,Success
+2026-09-07 02:34:13,usr_1434,Marketing,gpt-4o,1929,340,0.00822,850,Success
+2026-09-07 02:59:56,usr_9279,Data Science,gpt-4o,607,1778,0.0193,1006,Success
+2026-09-07 03:31:38,usr_7873,Product,gpt-4o,3795,615,0.01564,1036,Success
+2026-09-07 03:36:49,usr_5012,Marketing,llama-3-70b,3116,941,0.00243,435,Success
+2026-09-07 05:21:26,usr_5557,Sales,claude-3-5-sonnet,4080,2653,0.05203,837,Success
+2026-09-07 05:44:16,usr_1434,Engineering,claude-3-5-sonnet,4247,2866,0.05573,1546,Success
+2026-09-07 06:33:15,usr_4582,Sales,gpt-4o,1083,1657,0.01928,886,Success
+2026-09-07 06:40:13,usr_2424,Engineering,gpt-4o,1482,555,0.00925,1165,Success
+2026-09-07 07:12:12,usr_4257,Sales,gpt-4o,2228,575,0.01132,885,Success
+2026-09-07 08:41:37,usr_2535,Sales,llama-3-70b,2280,1476,0.00225,601,Success
+2026-09-07 09:17:08,usr_5557,Sales,llama-3-70b,367,576,0.00057,346,Success
+2026-09-07 10:18:29,usr_4611,Data Science,llama-3-70b,4346,374,0.00283,558,Success
+2026-09-07 10:33:37,usr_2679,Marketing,claude-3-5-sonnet,1602,1000,0.01981,1528,Success
+2026-09-07 10:35:41,usr_5506,Marketing,llama-3-70b,4076,920,0.003,602,Success
+2026-09-07 12:17:29,usr_4611,Marketing,gpt-4o,2016,927,0.01431,814,Success
+2026-09-07 12:28:33,usr_8359,Engineering,gpt-4o,1087,1008,0.0128,1010,Success
+2026-09-07 12:32:37,usr_7912,Product,gpt-4o,3874,0,0.00252,5000,Timeout_Error
+2026-09-07 13:08:16,usr_9279,Product,gpt-4o,1660,1425,0.0184,1156,Success
+2026-09-07 13:31:19,usr_9935,Product,llama-3-70b,685,137,0.00049,483,Success
+2026-09-07 13:58:37,usr_9279,Data Science,llama-3-70b,3889,471,0.00262,612,Success
+2026-09-07 14:10:44,usr_7912,Engineering,gpt-4o,1828,1830,0.02287,657,Success
+2026-09-07 14:31:15,usr_5506,Data Science,gpt-4o,3339,0,0.00507,5000,Timeout_Error
+2026-09-07 16:58:02,usr_9935,Product,llama-3-70b,4943,1073,0.00361,438,Success
+2026-09-07 17:02:32,usr_5012,Product,llama-3-70b,1267,520,0.00107,485,Success
+2026-09-07 18:43:46,usr_5012,Product,llama-3-70b,4468,105,0.00274,322,Success
+2026-09-07 21:14:00,usr_1520,Marketing,llama-3-70b,2691,1221,0.00235,567,Success
+2026-09-07 22:07:54,usr_4611,Data Science,llama-3-70b,2061,980,0.00182,531,Success
+2026-09-07 22:33:40,usr_2424,Marketing,llama-3-70b,4759,1267,0.00362,389,Success
+2026-09-07 22:54:33,usr_5012,Marketing,gpt-4o,3625,528,0.01434,879,Success
+2026-09-07 23:59:57,usr_3286,Engineering,claude-3-5-sonnet,2430,1787,0.0341,1005,Success
+2026-09-08 00:21:51,usr_4582,Marketing,llama-3-70b,823,0,0.0,5000,Timeout_Error
+2026-09-08 00:44:12,usr_2824,Product,claude-3-5-sonnet,1989,1390,0.02682,1246,Success
+2026-09-08 00:45:33,usr_4582,Sales,llama-3-70b,4348,342,0.00281,414,Success
+2026-09-08 00:54:21,usr_4611,Engineering,llama-3-70b,1646,599,0.00135,564,Success
+2026-09-08 02:57:15,usr_1106,Sales,llama-3-70b,5049,767,0.00349,514,Success
+2026-09-08 04:18:28,usr_2679,Data Science,claude-3-5-sonnet,1159,521,0.01129,1003,Success
+2026-09-08 07:08:54,usr_5557,Product,llama-3-70b,2156,729,0.00173,364,Success
+2026-09-08 09:07:50,usr_5012,Sales,gpt-4o,2994,609,0.01358,869,Success
+2026-09-08 12:23:37,usr_5012,Marketing,gpt-4o,618,366,0.0052,1071,Success
+2026-09-08 13:28:24,usr_5012,Data Science,claude-3-5-sonnet,4686,1027,0.02946,1010,Success
+2026-09-08 13:29:58,usr_5506,Engineering,gpt-4o,571,1182,0.01325,956,Success
+2026-09-08 17:14:31,usr_2424,Marketing,claude-3-5-sonnet,1182,2681,0.04376,1073,Success
+2026-09-08 17:47:25,usr_3286,Engineering,llama-3-70b,391,1487,0.00113,439,Success
+2026-09-08 19:54:26,usr_5012,Engineering,claude-3-5-sonnet,3172,564,0.01798,1335,Success
+2026-09-08 21:01:15,usr_1488,Sales,llama-3-70b,3954,463,0.00265,542,Success
+2026-09-09 00:06:47,usr_1409,Engineering,claude-3-5-sonnet,1019,1133,0.02005,1191,Success
+2026-09-09 00:25:12,usr_4611,Marketing,claude-3-5-sonnet,1473,853,0.01721,961,Success
+2026-09-09 02:11:37,usr_4257,Product,gpt-4o,2578,360,0.01005,1036,Success
+2026-09-09 03:37:46,usr_2535,Marketing,claude-3-5-sonnet,3376,972,0.02471,1053,Success
+2026-09-09 03:54:12,usr_4811,Sales,gpt-4o,1504,1909,0.02285,1085,Success
+2026-09-09 04:26:38,usr_5557,Data Science,claude-3-5-sonnet,3371,2667,0.05012,1447,Success
+2026-09-09 05:37:54,usr_2424,Engineering,claude-3-5-sonnet,4620,1034,0.02937,840,Success
+2026-09-09 05:55:02,usr_2679,Engineering,claude-3-5-sonnet,2369,804,0.01917,832,Success
+2026-09-09 06:55:03,usr_4611,Marketing,claude-3-5-sonnet,1254,0,0.00282,5000,Timeout_Error
+2026-09-09 09:03:23,usr_4257,Engineering,gpt-4o,3380,1346,0.02191,967,Success
+2026-09-09 09:20:38,usr_5557,Product,claude-3-5-sonnet,3373,0,0.0054,5000,Timeout_Error
+2026-09-09 09:28:56,usr_5557,Sales,gpt-4o,618,1490,0.01645,845,Success
+2026-09-09 09:36:26,usr_4811,Engineering,llama-3-70b,4399,0,0.0,5000,Timeout_Error
+2026-09-09 09:47:00,usr_9279,Marketing,claude-3-5-sonnet,2647,2116,0.03968,1235,Success
+2026-09-09 10:15:34,usr_5012,Sales,llama-3-70b,5052,529,0.00335,685,Success
+2026-09-09 10:42:47,usr_4811,Sales,claude-3-5-sonnet,1358,738,0.01514,1361,Success
+2026-09-09 10:59:39,usr_1520,Product,claude-3-5-sonnet,3251,2831,0.05222,1144,Success
+2026-09-09 11:18:15,usr_4611,Engineering,gpt-4o,2465,1570,0.02186,912,Success
+2026-09-09 13:58:03,usr_2424,Product,llama-3-70b,1387,611,0.0012,374,Success
+2026-09-09 16:04:54,usr_2424,Marketing,gpt-4o,3022,775,0.0153,881,Success
+2026-09-09 17:56:23,usr_1434,Data Science,claude-3-5-sonnet,2147,0,0.00564,5000,Timeout_Error
+2026-09-09 18:34:43,usr_2679,Product,claude-3-5-sonnet,1907,2161,0.03814,1588,Success
+2026-09-09 18:54:31,usr_1520,Engineering,gpt-4o,907,1482,0.01709,1070,Success
+2026-09-09 19:43:26,usr_1520,Sales,claude-3-5-sonnet,1893,1467,0.02768,977,Success
+2026-09-09 20:43:09,usr_5506,Data Science,llama-3-70b,369,1349,0.00103,632,Success
+2026-09-09 20:55:48,usr_9279,Engineering,gpt-4o,2851,782,0.01495,1080,Success
+2026-09-09 21:46:21,usr_9279,Sales,claude-3-5-sonnet,3738,1651,0.03598,1298,Success
+2026-09-09 23:01:41,usr_9279,Marketing,claude-3-5-sonnet,4228,2057,0.04354,1197,Success
+2026-09-10 00:29:45,usr_1520,Engineering,gpt-4o,800,311,0.00511,782,Success
+2026-09-10 01:10:16,usr_3286,Data Science,claude-3-5-sonnet,952,1561,0.02627,887,Success
+2026-09-10 01:15:32,usr_4257,Engineering,claude-3-5-sonnet,3616,1200,0.02885,1005,Success
+2026-09-10 01:17:49,usr_2535,Engineering,llama-3-70b,4151,471,0.00277,398,Success
+2026-09-10 01:28:06,usr_1520,Engineering,llama-3-70b,5593,453,0.00363,320,Success
+2026-09-10 02:10:27,usr_2424,Sales,claude-3-5-sonnet,4766,715,0.02502,1169,Success
+2026-09-10 02:30:50,usr_2424,Marketing,llama-3-70b,5974,914,0.00413,632,Success
+2026-09-10 03:02:00,usr_9928,Data Science,claude-3-5-sonnet,1497,1648,0.02921,1015,Success
+2026-09-10 03:02:29,usr_1488,Product,gpt-4o,1585,951,0.01347,1196,Success
+2026-09-10 03:48:28,usr_3286,Product,gpt-4o,3811,594,0.01547,729,Success
+2026-09-10 03:54:33,usr_1488,Engineering,claude-3-5-sonnet,4040,2800,0.05412,903,Success
+2026-09-10 04:12:21,usr_4582,Data Science,claude-3-5-sonnet,1973,1695,0.03134,1532,Success
+2026-09-10 04:21:05,usr_9279,Data Science,llama-3-70b,703,1222,0.00115,504,Success
+2026-09-10 04:30:19,usr_7873,Marketing,claude-3-5-sonnet,3821,433,0.01796,1330,Success
+2026-09-10 04:34:16,usr_3286,Engineering,llama-3-70b,511,369,0.00053,307,Success
+2026-09-10 04:50:12,usr_2679,Data Science,claude-3-5-sonnet,3865,1702,0.03712,1413,Success
+2026-09-10 05:11:53,usr_5557,Data Science,gpt-4o,3453,1096,0.01959,644,Success
+2026-09-10 05:15:07,usr_1409,Marketing,llama-3-70b,1336,1002,0.0014,433,Success
+2026-09-10 05:17:07,usr_2824,Data Science,llama-3-70b,4511,309,0.00289,405,Success
+2026-09-10 07:06:09,usr_2424,Product,gpt-4o,2967,513,0.01255,677,Success
+2026-09-10 08:19:40,usr_4611,Sales,gpt-4o,3178,1563,0.02358,894,Success
+2026-09-10 08:52:09,usr_5506,Engineering,gpt-4o,3746,829,0.01766,1182,Success
+2026-09-10 09:00:21,usr_5557,Engineering,claude-3-5-sonnet,4486,2329,0.04839,823,Success
+2026-09-10 09:55:42,usr_4657,Product,gpt-4o,793,1527,0.01725,616,Success
+2026-09-10 10:36:40,usr_7873,Data Science,llama-3-70b,3502,0,0.0,5000,Timeout_Error
+2026-09-10 15:33:40,usr_4611,Data Science,gpt-4o,1690,1158,0.0158,1047,Success
+2026-09-10 15:51:00,usr_3286,Sales,claude-3-5-sonnet,1901,2983,0.05045,1329,Success
+2026-09-10 15:59:45,usr_7912,Data Science,llama-3-70b,2539,0,0.0,162,Rate_Limit_Error
+2026-09-10 16:55:27,usr_2824,Marketing,claude-3-5-sonnet,3929,1693,0.03718,1342,Success
+2026-09-10 17:02:53,usr_1488,Data Science,llama-3-70b,1513,980,0.0015,365,Success
+2026-09-10 19:18:20,usr_4582,Marketing,gpt-4o,894,1271,0.01494,668,Success
+2026-09-10 20:17:33,usr_4811,Sales,gpt-4o,1214,1450,0.01754,638,Success
+2026-09-10 21:15:02,usr_9928,Engineering,gpt-4o,577,1103,0.01247,921,Success
+2026-09-10 22:13:04,usr_4582,Sales,claude-3-5-sonnet,4616,2103,0.04539,863,Success
+2026-09-10 23:44:28,usr_9279,Sales,gpt-4o,2341,1398,0.01983,848,Success
+2026-09-11 00:07:49,usr_5506,Sales,claude-3-5-sonnet,1458,2523,0.04222,993,Success
+2026-09-11 00:09:54,usr_7873,Sales,gpt-4o,1017,337,0.00591,841,Success
+2026-09-11 01:25:39,usr_4582,Data Science,claude-3-5-sonnet,2022,764,0.01753,1176,Success
+2026-09-11 02:32:40,usr_5012,Data Science,llama-3-70b,1888,815,0.00162,479,Success
+2026-09-11 03:13:32,usr_2535,Marketing,llama-3-70b,5330,206,0.00332,382,Success
+2026-09-11 06:36:46,usr_1488,Engineering,llama-3-70b,2465,337,0.00168,326,Success
+2026-09-11 06:48:27,usr_2424,Marketing,llama-3-70b,4302,1400,0.00342,652,Success
+2026-09-11 06:51:38,usr_4657,Marketing,gpt-4o,3126,1184,0.01965,980,Success
+2026-09-11 08:06:38,usr_1520,Sales,llama-3-70b,5982,372,0.00381,470,Success
+2026-09-11 08:33:55,usr_7873,Sales,gpt-4o,2708,1746,0.02423,805,Success
+2026-09-11 09:43:16,usr_4657,Engineering,llama-3-70b,2717,517,0.00194,685,Success
+2026-09-11 09:49:22,usr_7873,Data Science,gpt-4o,2580,410,0.01055,1015,Success
+2026-09-11 10:04:35,usr_4257,Engineering,gpt-4o,1800,1919,0.02369,749,Success
+2026-09-11 10:35:27,usr_4811,Product,claude-3-5-sonnet,2311,1163,0.02438,1455,Success
+2026-09-11 10:55:58,usr_4582,Sales,gpt-4o,953,464,0.00702,1149,Success
+2026-09-11 12:10:46,usr_5506,Data Science,gpt-4o,1884,1416,0.01887,1094,Success
+2026-09-11 13:03:25,usr_3615,Engineering,llama-3-70b,5554,409,0.00358,594,Success
+2026-09-11 13:16:44,usr_7912,Data Science,llama-3-70b,5694,883,0.00395,600,Success
+2026-09-11 13:41:59,usr_9279,Sales,llama-3-70b,1933,688,0.00157,464,Success
+2026-09-11 14:29:00,usr_4582,Product,llama-3-70b,1380,1431,0.00169,454,Success
+2026-09-11 14:53:34,usr_5557,Marketing,llama-3-70b,5657,1183,0.0041,304,Success
+2026-09-11 15:22:33,usr_1434,Marketing,gpt-4o,2023,459,0.00965,875,Success
+2026-09-11 16:08:28,usr_3286,Product,llama-3-70b,4935,1450,0.00383,374,Success
+2026-09-11 17:00:46,usr_5012,Product,llama-3-70b,4188,850,0.00302,657,Success
+2026-09-11 17:19:07,usr_2824,Sales,claude-3-5-sonnet,1990,2276,0.04011,1127,Success
+2026-09-11 18:48:10,usr_9279,Engineering,gpt-4o,3016,1088,0.01842,1039,Success
+2026-09-11 19:38:47,usr_5557,Engineering,gpt-4o,1774,421,0.00864,1192,Success
+2026-09-11 21:27:38,usr_5506,Sales,claude-3-5-sonnet,4634,0,0.01048,5000,Timeout_Error
+2026-09-11 21:56:35,usr_3286,Marketing,gpt-4o,2428,462,0.01069,864,Success
+2026-09-11 22:46:07,usr_5506,Engineering,llama-3-70b,3981,1398,0.00323,485,Success
+2026-09-12 00:08:46,usr_9935,Marketing,llama-3-70b,955,531,0.00089,385,Success
+2026-09-12 01:52:44,usr_7873,Sales,gpt-4o,1264,607,0.00923,671,Success
+2026-09-12 01:53:25,usr_9279,Product,llama-3-70b,2671,176,0.00171,304,Success
+2026-09-12 02:37:08,usr_1106,Engineering,gpt-4o,1563,1367,0.01758,833,Success
+2026-09-12 05:47:32,usr_2424,Data Science,llama-3-70b,5097,0,0.0,101,Rate_Limit_Error
+2026-09-12 07:56:16,usr_1106,Product,claude-3-5-sonnet,2814,1131,0.02541,1000,Success
+2026-09-12 08:50:44,usr_9935,Sales,gpt-4o,3774,1280,0.02224,633,Success
+2026-09-12 10:04:07,usr_2424,Product,claude-3-5-sonnet,2176,1915,0.03525,1366,Success
+2026-09-12 11:32:14,usr_5012,Product,gpt-4o,1469,1818,0.02185,1105,Success
+2026-09-12 12:02:05,usr_4582,Marketing,claude-3-5-sonnet,4527,2242,0.04721,1438,Success
+2026-09-12 13:01:55,usr_1434,Marketing,claude-3-5-sonnet,2906,0,0.00406,5000,Timeout_Error
+2026-09-12 13:15:11,usr_7873,Sales,claude-3-5-sonnet,3951,1151,0.02912,1515,Success
+2026-09-12 13:28:35,usr_4257,Data Science,claude-3-5-sonnet,1646,507,0.01254,891,Success
+2026-09-12 14:40:00,usr_5506,Sales,gpt-4o,1288,306,0.00628,744,Success
+2026-09-12 14:47:37,usr_1488,Engineering,gpt-4o,3647,812,0.01724,930,Success
+2026-09-12 15:02:05,usr_1409,Product,llama-3-70b,2092,140,0.00134,569,Success
+2026-09-12 15:33:24,usr_4257,Engineering,claude-3-5-sonnet,2932,0,0.00844,173,Rate_Limit_Error
+2026-09-12 15:44:31,usr_1488,Data Science,claude-3-5-sonnet,1476,2138,0.0365,880,Success
+2026-09-12 15:52:57,usr_5557,Data Science,gpt-4o,2938,1515,0.0225,907,Success
+2026-09-12 17:10:31,usr_7912,Product,gpt-4o,1788,1924,0.02371,1061,Success
+2026-09-12 17:18:20,usr_5012,Engineering,claude-3-5-sonnet,3221,1655,0.03449,1256,Success
+2026-09-12 18:27:40,usr_9279,Engineering,claude-3-5-sonnet,3650,2072,0.04203,1141,Success
+2026-09-12 18:31:13,usr_8359,Sales,claude-3-5-sonnet,4353,2718,0.05383,1544,Success
+2026-09-12 20:38:05,usr_2424,Product,llama-3-70b,1909,639,0.00153,675,Success
+2026-09-12 21:57:21,usr_4611,Engineering,gpt-4o,1955,657,0.01146,914,Success
+2026-09-12 22:37:11,usr_1106,Product,gpt-4o,2086,1546,0.02067,929,Success
+2026-09-13 00:00:55,usr_1434,Marketing,claude-3-5-sonnet,4114,0,0.00878,5000,Timeout_Error
+2026-09-13 00:45:47,usr_2824,Data Science,llama-3-70b,1265,1164,0.00146,303,Success
+2026-09-13 02:21:12,usr_8359,Sales,llama-3-70b,5967,1057,0.00421,607,Success
+2026-09-13 02:28:32,usr_2824,Sales,llama-3-70b,1562,489,0.00123,474,Success
+2026-09-13 03:06:00,usr_7873,Engineering,llama-3-70b,1886,1273,0.0019,364,Success
+2026-09-13 03:21:10,usr_1106,Sales,llama-3-70b,2407,481,0.00173,307,Success
+2026-09-13 03:59:54,usr_2535,Product,claude-3-5-sonnet,2361,1784,0.03384,910,Success
+2026-09-13 04:49:49,usr_9928,Engineering,gpt-4o,932,536,0.00769,1060,Success
+2026-09-13 05:58:58,usr_2535,Engineering,gpt-4o,1418,1689,0.02043,734,Success
+2026-09-13 08:18:47,usr_9279,Sales,gpt-4o,2266,1953,0.02519,811,Success
+2026-09-13 10:08:02,usr_5557,Data Science,gpt-4o,1649,479,0.00891,713,Success
+2026-09-13 10:32:05,usr_5012,Product,llama-3-70b,4668,115,0.00287,620,Success
+2026-09-13 10:46:45,usr_9935,Data Science,llama-3-70b,4197,1475,0.0034,483,Success
+2026-09-13 11:45:26,usr_7912,Product,gpt-4o,2745,1216,0.01902,812,Success
+2026-09-13 13:25:16,usr_7873,Data Science,claude-3-5-sonnet,2279,476,0.01398,1442,Success
+2026-09-13 13:49:44,usr_4582,Product,claude-3-5-sonnet,4486,2687,0.05376,830,Success
+2026-09-13 14:59:25,usr_9928,Engineering,claude-3-5-sonnet,2233,2067,0.0377,1318,Success
+2026-09-13 15:22:28,usr_9935,Data Science,gpt-4o,2907,1602,0.02329,947,Success
+2026-09-13 16:29:35,usr_5557,Engineering,gpt-4o,1513,1284,0.01662,912,Success
+2026-09-13 17:39:47,usr_1434,Product,gpt-4o,793,745,0.00943,1040,Success
+2026-09-13 18:33:14,usr_3615,Marketing,gpt-4o,592,371,0.00519,1151,Success
+2026-09-13 19:34:36,usr_3615,Engineering,llama-3-70b,4574,487,0.00304,684,Success
+2026-09-14 00:40:12,usr_5557,Marketing,claude-3-5-sonnet,1355,1660,0.02896,1107,Success
+2026-09-14 01:11:09,usr_1409,Marketing,gpt-4o,1095,1948,0.02222,633,Success
+2026-09-14 01:35:16,usr_4257,Data Science,claude-3-5-sonnet,2017,1898,0.03452,1201,Success
+2026-09-14 04:34:20,usr_2535,Data Science,llama-3-70b,5623,1494,0.00427,629,Success
+2026-09-14 07:41:14,usr_8359,Product,claude-3-5-sonnet,4154,2502,0.04999,820,Success
+2026-09-14 08:03:12,usr_5012,Product,llama-3-70b,4186,1118,0.00318,390,Success
+2026-09-14 08:48:45,usr_5506,Data Science,gpt-4o,3774,1985,0.02928,1149,Success
+2026-09-14 10:12:12,usr_7912,Marketing,llama-3-70b,2914,1003,0.00235,643,Success
+2026-09-14 12:58:15,usr_4257,Marketing,claude-3-5-sonnet,3918,2309,0.04639,1346,Success
+2026-09-14 13:44:48,usr_1488,Marketing,claude-3-5-sonnet,3090,2246,0.04296,984,Success
+2026-09-14 15:26:48,usr_4257,Engineering,claude-3-5-sonnet,1426,830,0.01673,1316,Success
+2026-09-14 16:06:06,usr_1106,Product,llama-3-70b,3456,488,0.00237,398,Success
+2026-09-14 16:30:50,usr_1106,Product,llama-3-70b,994,681,0.001,563,Success
+2026-09-14 16:58:50,usr_1488,Sales,claude-3-5-sonnet,4524,0,0.00448,182,Rate_Limit_Error
+2026-09-14 17:03:58,usr_8359,Product,llama-3-70b,2122,1345,0.00208,495,Success
+2026-09-14 17:45:02,usr_8359,Marketing,claude-3-5-sonnet,2011,1927,0.03494,1259,Success
+2026-09-14 18:09:48,usr_5557,Sales,gpt-4o,1725,532,0.00963,1177,Success
+2026-09-14 18:13:52,usr_9935,Marketing,gpt-4o,3730,1420,0.02353,602,Success
+2026-09-14 18:17:11,usr_1106,Product,claude-3-5-sonnet,2435,1361,0.02772,1553,Success
+2026-09-14 18:26:39,usr_4611,Engineering,claude-3-5-sonnet,3172,1637,0.03407,1294,Success
+2026-09-14 18:53:32,usr_7912,Engineering,gpt-4o,3527,1293,0.02175,1176,Success
+2026-09-14 19:45:18,usr_8359,Marketing,llama-3-70b,1386,1431,0.00169,391,Success
+2026-09-14 20:02:15,usr_1106,Data Science,claude-3-5-sonnet,3492,949,0.02471,1084,Success
+2026-09-14 20:40:38,usr_2824,Engineering,claude-3-5-sonnet,2795,915,0.02211,1378,Success
+2026-09-14 21:27:53,usr_5012,Product,llama-3-70b,3865,1424,0.00317,336,Success
+2026-09-14 22:45:31,usr_1520,Sales,claude-3-5-sonnet,3040,1578,0.03279,924,Success
+2026-09-14 22:51:20,usr_4582,Marketing,gpt-4o,1133,1072,0.01355,1199,Success
+2026-09-15 00:01:59,usr_4257,Data Science,llama-3-70b,2173,282,0.00147,536,Success
+2026-09-15 00:48:01,usr_7912,Sales,llama-3-70b,4760,968,0.00344,572,Success
+2026-09-15 01:06:26,usr_1520,Sales,gpt-4o,3290,1778,0.02601,740,Success
+2026-09-15 02:26:54,usr_1434,Sales,gpt-4o,2923,1169,0.019,1073,Success
+2026-09-15 03:46:12,usr_1520,Engineering,llama-3-70b,4689,479,0.0031,398,Success
+2026-09-15 03:46:17,usr_9935,Data Science,claude-3-5-sonnet,3920,1203,0.0298,949,Success
+2026-09-15 04:55:57,usr_7873,Marketing,claude-3-5-sonnet,4011,1151,0.0293,1516,Success
+2026-09-15 05:06:15,usr_8359,Product,claude-3-5-sonnet,1258,1298,0.02324,1389,Success
+2026-09-15 05:28:04,usr_1409,Marketing,gpt-4o,1805,734,0.01185,707,Success
+2026-09-15 06:43:23,usr_4657,Engineering,gpt-4o,3529,0,0.00239,5000,Timeout_Error
+2026-09-15 06:54:20,usr_2824,Marketing,llama-3-70b,4488,1239,0.00344,592,Success
+2026-09-15 07:29:22,usr_4657,Marketing,gpt-4o,3469,1767,0.02634,715,Success
+2026-09-15 09:02:17,usr_9935,Data Science,claude-3-5-sonnet,2177,2273,0.04063,1379,Success
+2026-09-15 10:22:57,usr_2424,Data Science,llama-3-70b,3764,667,0.00266,327,Success
+2026-09-15 11:19:18,usr_8359,Data Science,llama-3-70b,1446,873,0.00139,566,Success
+2026-09-15 11:33:57,usr_7912,Engineering,claude-3-5-sonnet,2408,2656,0.04706,1081,Success
+2026-09-15 13:41:05,usr_5557,Engineering,gpt-4o,1374,1176,0.0152,679,Success
+2026-09-15 16:24:28,usr_4811,Marketing,llama-3-70b,3812,725,0.00272,591,Success
+2026-09-15 16:26:44,usr_1488,Sales,llama-3-70b,995,1289,0.00137,348,Success
+2026-09-15 16:35:53,usr_8359,Marketing,gpt-4o,2126,1964,0.02496,643,Success
+2026-09-15 16:37:45,usr_2824,Product,gpt-4o,3024,1754,0.0251,727,Success
+2026-09-15 16:43:28,usr_2824,Engineering,llama-3-70b,3114,346,0.00208,516,Success
+2026-09-15 16:47:33,usr_4257,Data Science,llama-3-70b,5012,552,0.00334,528,Success
+2026-09-15 17:03:53,usr_2535,Data Science,claude-3-5-sonnet,4689,2745,0.05524,1041,Success
+2026-09-15 17:41:24,usr_2535,Product,gpt-4o,2380,1109,0.01704,1186,Success
+2026-09-15 21:20:53,usr_3615,Engineering,gpt-4o,3866,265,0.01231,923,Success
+2026-09-15 23:03:37,usr_9279,Product,llama-3-70b,5452,1369,0.00409,696,Success
+2026-09-15 23:41:54,usr_7873,Engineering,llama-3-70b,5478,883,0.00382,327,Success
+2026-09-16 01:29:03,usr_1488,Product,claude-3-5-sonnet,3817,2301,0.04597,1317,Success
+2026-09-16 01:42:07,usr_4811,Marketing,gpt-4o,2160,1605,0.02145,1114,Success
+2026-09-16 01:43:56,usr_1520,Sales,gpt-4o,2080,725,0.01245,1153,Success
+2026-09-16 01:48:39,usr_9928,Product,llama-3-70b,2709,404,0.00187,467,Success
+2026-09-16 03:29:06,usr_4657,Engineering,gpt-4o,752,1900,0.02088,827,Success
+2026-09-16 03:36:47,usr_1434,Engineering,llama-3-70b,5741,1288,0.00422,696,Success
+2026-09-16 03:44:49,usr_7912,Data Science,gpt-4o,3761,1359,0.02299,642,Success
+2026-09-16 04:30:42,usr_5012,Data Science,gpt-4o,2404,1632,0.02233,862,Success
+2026-09-16 05:26:31,usr_9279,Product,claude-3-5-sonnet,1280,1074,0.01995,1188,Success
+2026-09-16 05:31:05,usr_8359,Data Science,claude-3-5-sonnet,1291,644,0.01353,1164,Success
+2026-09-16 09:13:55,usr_3286,Sales,llama-3-70b,2898,1419,0.00259,508,Success
+2026-09-16 09:46:27,usr_1434,Engineering,llama-3-70b,791,863,0.00099,432,Success
+2026-09-16 10:46:04,usr_8359,Data Science,claude-3-5-sonnet,2355,2546,0.04526,1499,Success
+2026-09-16 10:49:29,usr_8359,Sales,llama-3-70b,524,1087,0.00097,359,Success
+2026-09-16 10:53:03,usr_1520,Data Science,gpt-4o,798,1788,0.01988,1049,Success
+2026-09-16 11:25:32,usr_1409,Marketing,claude-3-5-sonnet,2224,527,0.01458,1214,Success
+2026-09-16 11:51:23,usr_8359,Product,llama-3-70b,5405,988,0.00384,664,Success
+2026-09-16 12:15:07,usr_4657,Product,gpt-4o,1505,1832,0.02208,917,Success
+2026-09-16 13:37:25,usr_1434,Engineering,claude-3-5-sonnet,3341,1790,0.03687,1026,Success
+2026-09-16 14:23:37,usr_9279,Product,llama-3-70b,4777,602,0.00323,377,Success
+2026-09-16 14:39:18,usr_3615,Sales,gpt-4o,2687,0,0.00272,5000,Timeout_Error
+2026-09-16 14:48:17,usr_1520,Marketing,llama-3-70b,4993,123,0.00307,433,Success
+2026-09-16 15:39:54,usr_3615,Engineering,claude-3-5-sonnet,4195,2979,0.05727,1389,Success
+2026-09-16 16:36:04,usr_5012,Data Science,gpt-4o,2666,0,0.00262,5000,Timeout_Error
+2026-09-16 17:10:30,usr_2535,Engineering,claude-3-5-sonnet,2505,2820,0.04981,1241,Success
+2026-09-16 18:02:08,usr_5012,Data Science,claude-3-5-sonnet,2092,464,0.01324,1298,Success
+2026-09-16 18:20:01,usr_3286,Marketing,gpt-4o,1019,1719,0.01974,1031,Success
+2026-09-16 18:24:14,usr_3615,Sales,gpt-4o,1803,1725,0.02176,1084,Success
+2026-09-16 18:33:10,usr_8359,Sales,gpt-4o,1068,750,0.01017,908,Success
+2026-09-16 18:38:02,usr_7873,Engineering,claude-3-5-sonnet,3391,1468,0.03219,1009,Success
+2026-09-16 18:40:11,usr_4257,Data Science,claude-3-5-sonnet,1664,2761,0.04641,1166,Success
+2026-09-16 19:28:58,usr_9935,Marketing,llama-3-70b,5905,1425,0.0044,534,Success
+2026-09-16 20:18:31,usr_4582,Data Science,claude-3-5-sonnet,1299,759,0.01528,1086,Success
+2026-09-16 20:43:58,usr_7912,Product,llama-3-70b,1040,988,0.00122,350,Success
+2026-09-16 21:25:31,usr_4657,Data Science,llama-3-70b,2501,1385,0.00233,512,Success
+2026-09-16 23:40:31,usr_7873,Data Science,gpt-4o,2375,419,0.01013,738,Success
+2026-09-17 00:29:31,usr_9279,Data Science,gpt-4o,2990,1210,0.01957,843,Success
+2026-09-17 02:06:35,usr_1409,Engineering,claude-3-5-sonnet,2723,0,0.00862,271,Rate_Limit_Error
+2026-09-17 03:01:53,usr_8359,Product,claude-3-5-sonnet,1709,1786,0.03192,1015,Success
+2026-09-17 05:35:16,usr_9935,Marketing,claude-3-5-sonnet,3610,1898,0.0393,988,Success
+2026-09-17 05:47:28,usr_4257,Sales,llama-3-70b,379,0,0.0,5000,Timeout_Error
+2026-09-17 06:07:11,usr_8359,Data Science,gpt-4o,3987,1738,0.02735,1162,Success
+2026-09-17 06:14:12,usr_9935,Data Science,claude-3-5-sonnet,2077,836,0.01877,922,Success
+2026-09-17 07:18:05,usr_2535,Marketing,gpt-4o,2771,565,0.01258,1087,Success
+2026-09-17 09:05:36,usr_2535,Data Science,gpt-4o,3507,358,0.01235,932,Success
+2026-09-17 09:20:07,usr_2824,Sales,llama-3-70b,3827,459,0.00257,366,Success
+2026-09-17 11:01:26,usr_5012,Marketing,llama-3-70b,5260,507,0.00346,595,Success
+2026-09-17 11:09:43,usr_9279,Engineering,gpt-4o,3906,374,0.0135,695,Success
+2026-09-17 11:16:37,usr_5506,Data Science,gpt-4o,966,1716,0.01958,1073,Success
+2026-09-17 11:26:30,usr_1106,Data Science,claude-3-5-sonnet,2323,1395,0.02789,940,Success
+2026-09-17 12:53:00,usr_5012,Product,claude-3-5-sonnet,4428,0,0.00689,150,Rate_Limit_Error
+2026-09-17 14:01:57,usr_9279,Product,llama-3-70b,5545,101,0.00339,319,Success
+2026-09-17 15:53:40,usr_5012,Sales,llama-3-70b,3041,632,0.0022,484,Success
+2026-09-17 15:56:05,usr_9935,Data Science,gpt-4o,3666,1852,0.02768,920,Success
+2026-09-17 16:36:39,usr_1488,Product,llama-3-70b,4909,1116,0.00362,566,Success
+2026-09-17 17:23:29,usr_2824,Data Science,claude-3-5-sonnet,2319,476,0.0141,1434,Success
+2026-09-17 17:39:03,usr_7873,Engineering,llama-3-70b,1185,1438,0.00157,310,Success
+2026-09-17 18:24:52,usr_4611,Marketing,gpt-4o,3264,678,0.01494,1082,Success
+2026-09-17 19:30:12,usr_9935,Marketing,llama-3-70b,2745,560,0.00198,452,Success
+2026-09-17 20:04:22,usr_5506,Marketing,llama-3-70b,4500,1219,0.00343,629,Success
+2026-09-17 21:48:46,usr_3615,Product,llama-3-70b,1095,1385,0.00149,630,Success
+2026-09-18 00:11:17,usr_5557,Marketing,claude-3-5-sonnet,3675,425,0.0174,985,Success
+2026-09-18 01:29:41,usr_2824,Engineering,claude-3-5-sonnet,3022,1875,0.03719,910,Success
+2026-09-18 01:44:23,usr_2679,Sales,claude-3-5-sonnet,2734,0,0.0073,194,Rate_Limit_Error
+2026-09-18 02:41:23,usr_2424,Engineering,claude-3-5-sonnet,2155,612,0.01564,1205,Success
+2026-09-18 02:52:49,usr_9279,Sales,llama-3-70b,3682,781,0.00268,667,Success
+2026-09-18 04:06:39,usr_1106,Data Science,gpt-4o,1493,303,0.00676,1143,Success
+2026-09-18 04:44:21,usr_2535,Data Science,gpt-4o,2611,1649,0.02302,1102,Success
+2026-09-18 04:54:32,usr_9928,Sales,gpt-4o,3479,366,0.01236,1081,Success
+2026-09-18 06:54:43,usr_2824,Data Science,llama-3-70b,2371,1494,0.00232,586,Success
+2026-09-18 07:06:07,usr_5506,Marketing,gpt-4o,2736,610,0.01294,941,Success
+2026-09-18 10:33:26,usr_1434,Product,llama-3-70b,2012,1353,0.00202,329,Success
+2026-09-18 11:26:40,usr_1488,Engineering,claude-3-5-sonnet,3189,2569,0.0481,1454,Success
+2026-09-18 13:31:01,usr_2535,Marketing,llama-3-70b,5863,928,0.00407,670,Success
+2026-09-18 15:11:48,usr_1434,Marketing,claude-3-5-sonnet,2619,2762,0.04929,931,Success
+2026-09-18 18:32:31,usr_3286,Data Science,gpt-4o,3202,1713,0.02513,1179,Success
+2026-09-18 19:40:37,usr_4257,Marketing,claude-3-5-sonnet,3215,2258,0.04351,1317,Success
+2026-09-18 19:58:55,usr_4257,Product,gpt-4o,2675,517,0.01186,1060,Success
+2026-09-18 21:35:11,usr_4611,Engineering,llama-3-70b,4280,140,0.00265,328,Success
+2026-09-18 22:39:31,usr_2679,Marketing,gpt-4o,1123,301,0.00582,1147,Success
+2026-09-19 00:15:27,usr_5557,Data Science,claude-3-5-sonnet,3406,1967,0.03972,1215,Success
+2026-09-19 01:31:25,usr_9279,Data Science,llama-3-70b,5309,1489,0.00408,549,Success
+2026-09-19 03:32:49,usr_4257,Data Science,gpt-4o,3211,889,0.01692,734,Success
+2026-09-19 04:29:32,usr_1434,Engineering,claude-3-5-sonnet,3780,2456,0.04818,810,Success
+2026-09-19 07:19:07,usr_1409,Product,claude-3-5-sonnet,4544,657,0.02349,913,Success
+2026-09-19 07:45:04,usr_5506,Marketing,gpt-4o,2056,1657,0.02171,757,Success
+2026-09-19 07:52:58,usr_1106,Data Science,claude-3-5-sonnet,3426,1370,0.03083,1109,Success
+2026-09-19 08:46:54,usr_8359,Data Science,gpt-4o,1865,366,0.00832,1196,Success
+2026-09-19 09:10:02,usr_5557,Data Science,llama-3-70b,2790,1254,0.00243,433,Success
+2026-09-19 09:43:06,usr_9279,Engineering,claude-3-5-sonnet,3064,1731,0.03516,1083,Success
+2026-09-19 12:25:06,usr_7873,Sales,gpt-4o,2955,1812,0.02551,610,Success
+2026-09-19 13:12:54,usr_5506,Sales,llama-3-70b,3310,0,0.0,225,Rate_Limit_Error
+2026-09-19 14:10:27,usr_7912,Data Science,gpt-4o,3326,1258,0.02089,745,Success
+2026-09-19 14:24:25,usr_8359,Engineering,claude-3-5-sonnet,2080,2585,0.04501,1025,Success
+2026-09-19 14:40:08,usr_4657,Data Science,gpt-4o,617,271,0.00425,965,Success
+2026-09-19 17:08:12,usr_4582,Sales,llama-3-70b,1725,1360,0.00185,591,Success
+2026-09-19 17:44:31,usr_2679,Data Science,gpt-4o,2726,912,0.01593,931,Success
+2026-09-19 18:43:48,usr_2679,Product,llama-3-70b,5532,930,0.00388,518,Success
+2026-09-19 19:13:45,usr_1520,Product,llama-3-70b,5495,640,0.00368,558,Success
+2026-09-19 20:10:00,usr_1409,Sales,claude-3-5-sonnet,2855,1957,0.03792,1159,Success
+2026-09-19 22:28:48,usr_1434,Sales,llama-3-70b,1113,415,0.00092,631,Success
+2026-09-19 22:47:05,usr_8359,Sales,gpt-4o,1209,608,0.0091,760,Success
+2026-09-19 23:43:12,usr_4582,Product,claude-3-5-sonnet,1995,0,0.00275,5000,Timeout_Error
+2026-09-19 23:44:40,usr_9279,Data Science,gpt-4o,1834,970,0.01428,887,Success
+2026-09-19 23:55:21,usr_5012,Sales,gpt-4o,1076,1744,0.02013,831,Success
+2026-09-20 01:14:25,usr_7873,Engineering,gpt-4o,1337,817,0.01151,816,Success
+2026-09-20 05:46:12,usr_9935,Sales,gpt-4o,2981,709,0.01454,910,Success
+2026-09-20 05:50:16,usr_9935,Sales,claude-3-5-sonnet,3160,593,0.01838,951,Success
+2026-09-20 06:09:33,usr_3615,Product,gpt-4o,3799,1955,0.02905,1013,Success
+2026-09-20 07:16:42,usr_4657,Sales,claude-3-5-sonnet,1405,2239,0.0378,1412,Success
+2026-09-20 08:23:32,usr_9279,Sales,gpt-4o,3788,1679,0.02626,1080,Success
+2026-09-20 08:43:44,usr_5557,Marketing,gpt-4o,2688,1387,0.02059,960,Success
+2026-09-20 10:05:35,usr_4811,Engineering,claude-3-5-sonnet,2443,1594,0.03124,1377,Success
+2026-09-20 10:58:05,usr_1409,Engineering,claude-3-5-sonnet,2260,1060,0.02268,1488,Success
+2026-09-20 12:30:31,usr_8359,Marketing,gpt-4o,3129,1314,0.02096,996,Success
+2026-09-20 12:54:57,usr_4582,Data Science,llama-3-70b,4773,1335,0.00366,412,Success
+2026-09-20 13:45:58,usr_1488,Engineering,llama-3-70b,366,1352,0.00103,561,Success
+2026-09-20 14:55:35,usr_5506,Product,llama-3-70b,3939,951,0.00293,526,Success
+2026-09-20 16:21:48,usr_4611,Product,gpt-4o,614,1831,0.01985,1152,Success
+2026-09-20 17:00:35,usr_4582,Engineering,gpt-4o,3946,0,0.00284,5000,Timeout_Error
+2026-09-20 18:12:32,usr_5557,Sales,claude-3-5-sonnet,2452,430,0.01381,946,Success
+2026-09-20 18:43:58,usr_2535,Sales,llama-3-70b,1924,255,0.00131,603,Success
+2026-09-20 19:34:05,usr_1434,Product,llama-3-70b,5056,415,0.00328,387,Success
+2026-09-20 19:34:09,usr_4257,Product,claude-3-5-sonnet,3916,2299,0.04623,1113,Success
+2026-09-20 20:32:38,usr_2679,Product,claude-3-5-sonnet,2123,2609,0.0455,1597,Success
+2026-09-20 21:00:48,usr_5012,Engineering,llama-3-70b,1982,1303,0.00197,402,Success
+2026-09-20 21:06:56,usr_4657,Marketing,gpt-4o,938,1720,0.01954,1166,Success
+2026-09-20 21:33:52,usr_7873,Sales,llama-3-70b,1138,0,0.0,195,Rate_Limit_Error
+2026-09-20 21:38:08,usr_1488,Engineering,claude-3-5-sonnet,4999,1218,0.03327,1301,Success
+2026-09-20 21:52:54,usr_5506,Engineering,gpt-4o,2160,976,0.01516,986,Success
+2026-09-20 22:07:40,usr_7912,Marketing,llama-3-70b,2109,548,0.00159,368,Success
+2026-09-20 22:24:31,usr_3615,Engineering,llama-3-70b,5829,1104,0.00416,637,Success
+2026-09-20 22:45:41,usr_2424,Sales,claude-3-5-sonnet,3656,2280,0.04517,1058,Success
+2026-09-20 22:54:20,usr_5557,Engineering,claude-3-5-sonnet,4190,755,0.02389,1308,Success
+2026-09-20 23:49:28,usr_7912,Product,gpt-4o,1038,615,0.00874,603,Success
+2026-09-21 00:07:43,usr_1520,Marketing,claude-3-5-sonnet,1038,1119,0.0199,998,Success
+2026-09-21 00:24:13,usr_4811,Product,gpt-4o,3195,1869,0.02668,885,Success
+2026-09-21 03:29:07,usr_1434,Product,claude-3-5-sonnet,3759,1580,0.03498,1370,Success
+2026-09-21 04:10:46,usr_4582,Sales,llama-3-70b,2899,0,0.0,5000,Timeout_Error
+2026-09-21 04:19:39,usr_7873,Engineering,gpt-4o,3207,1739,0.02541,1132,Success
+2026-09-21 05:31:13,usr_1488,Marketing,claude-3-5-sonnet,3090,2841,0.05189,1518,Success
+2026-09-21 06:23:20,usr_4582,Engineering,llama-3-70b,2112,398,0.00151,308,Success
+2026-09-21 06:29:07,usr_2424,Sales,llama-3-70b,5535,741,0.00377,605,Success
+2026-09-21 06:48:10,usr_9279,Data Science,claude-3-5-sonnet,4885,1663,0.0396,1309,Success
+2026-09-21 07:16:25,usr_4657,Marketing,claude-3-5-sonnet,3390,697,0.02063,809,Success
+2026-09-21 07:49:07,usr_1520,Product,gpt-4o,1471,1710,0.02078,1022,Success
+2026-09-21 08:09:45,usr_7912,Data Science,gpt-4o,1201,345,0.00645,918,Success
+2026-09-21 08:20:07,usr_3615,Sales,llama-3-70b,309,1446,0.00105,577,Success
+2026-09-21 08:24:52,usr_5012,Engineering,gpt-4o,1481,1740,0.0211,1200,Success
+2026-09-21 09:12:05,usr_4582,Marketing,gpt-4o,2111,0,0.00504,5000,Timeout_Error
+2026-09-21 09:32:25,usr_4257,Sales,claude-3-5-sonnet,1099,1182,0.02103,1092,Success
+2026-09-21 11:06:05,usr_2824,Marketing,claude-3-5-sonnet,3748,1504,0.0338,904,Success
+2026-09-21 12:44:53,usr_1106,Marketing,claude-3-5-sonnet,4508,1513,0.03622,1039,Success
+2026-09-21 13:26:19,usr_4811,Marketing,gpt-4o,3691,584,0.01507,709,Success
+2026-09-21 13:28:10,usr_2424,Product,llama-3-70b,665,1046,0.00103,313,Success
+2026-09-21 14:39:52,usr_1106,Data Science,claude-3-5-sonnet,4452,1051,0.02912,1561,Success
+2026-09-21 14:44:01,usr_3615,Engineering,llama-3-70b,5555,476,0.00362,622,Success
+2026-09-21 15:19:16,usr_4257,Data Science,gpt-4o,2131,402,0.00935,767,Success
+2026-09-21 15:29:55,usr_4257,Marketing,llama-3-70b,3944,376,0.00259,657,Success
+2026-09-21 15:37:42,usr_5557,Data Science,llama-3-70b,3947,1037,0.00299,455,Success
+2026-09-21 18:00:55,usr_3615,Engineering,llama-3-70b,4055,1400,0.00327,640,Success
+2026-09-21 19:03:49,usr_4611,Data Science,llama-3-70b,2767,1104,0.00232,593,Success
+2026-09-21 19:14:41,usr_5506,Sales,llama-3-70b,2775,1429,0.00252,509,Success
+2026-09-21 19:15:36,usr_4257,Product,claude-3-5-sonnet,2881,1874,0.03675,1263,Success
+2026-09-21 21:21:40,usr_2424,Sales,claude-3-5-sonnet,2814,1717,0.0342,1149,Success
+2026-09-21 21:22:45,usr_5506,Data Science,llama-3-70b,2678,714,0.00204,380,Success
+2026-09-21 21:30:04,usr_1520,Engineering,llama-3-70b,5092,1019,0.00367,495,Success
+2026-09-21 21:30:33,usr_2535,Marketing,gpt-4o,2382,1291,0.01886,950,Success
+2026-09-21 22:07:48,usr_1488,Data Science,claude-3-5-sonnet,4219,2586,0.05145,1092,Success
+2026-09-22 00:07:56,usr_2424,Product,llama-3-70b,2474,178,0.00159,355,Success
+2026-09-22 00:58:44,usr_4657,Engineering,llama-3-70b,4203,108,0.00259,304,Success
+2026-09-22 02:52:48,usr_9935,Marketing,gpt-4o,3803,607,0.01558,750,Success
+2026-09-22 02:53:29,usr_3615,Marketing,llama-3-70b,1963,461,0.00145,583,Success
+2026-09-22 03:55:54,usr_4811,Engineering,llama-3-70b,4043,131,0.0025,669,Success
+2026-09-22 04:08:02,usr_7912,Sales,llama-3-70b,1436,1060,0.0015,529,Success
+2026-09-22 05:03:16,usr_9279,Engineering,gpt-4o,2141,1207,0.01742,675,Success
+2026-09-22 05:13:11,usr_5506,Data Science,claude-3-5-sonnet,1671,2176,0.03765,1347,Success
+2026-09-22 05:39:19,usr_1488,Sales,gpt-4o,2535,1501,0.02135,677,Success
+2026-09-22 06:45:48,usr_8359,Data Science,gpt-4o,3595,1765,0.02664,1076,Success
+2026-09-22 07:51:47,usr_9928,Data Science,llama-3-70b,5442,1462,0.00414,573,Success
+2026-09-22 08:19:47,usr_3615,Marketing,gpt-4o,3390,0,0.00457,292,Rate_Limit_Error
+2026-09-22 08:48:52,usr_9279,Sales,claude-3-5-sonnet,2178,1842,0.03416,973,Success
+2026-09-22 09:58:00,usr_2679,Product,llama-3-70b,1261,1080,0.0014,424,Success
+2026-09-22 10:29:31,usr_2824,Engineering,claude-3-5-sonnet,1724,1839,0.03276,1290,Success
+2026-09-22 11:16:37,usr_7912,Sales,gpt-4o,2427,309,0.00916,1197,Success
+2026-09-22 11:52:03,usr_9935,Sales,claude-3-5-sonnet,4675,1888,0.04235,1533,Success
+2026-09-22 12:17:48,usr_4582,Marketing,gpt-4o,2426,239,0.00846,1152,Success
+2026-09-22 12:40:34,usr_3286,Data Science,llama-3-70b,3491,483,0.00238,604,Success
+2026-09-22 13:51:42,usr_1106,Product,claude-3-5-sonnet,2104,842,0.01894,1191,Success
+2026-09-22 16:33:44,usr_5557,Data Science,gpt-4o,2272,1555,0.02123,854,Success
+2026-09-22 17:28:03,usr_4657,Engineering,claude-3-5-sonnet,1213,833,0.01613,1192,Success
+2026-09-22 18:02:52,usr_2824,Engineering,gpt-4o,3127,1779,0.02561,1190,Success
+2026-09-22 18:55:42,usr_4657,Product,gpt-4o,1232,1775,0.02083,652,Success
+2026-09-22 19:09:20,usr_5557,Marketing,llama-3-70b,3129,916,0.00243,366,Success
+2026-09-22 19:12:51,usr_4657,Marketing,llama-3-70b,1753,762,0.00151,330,Success
+2026-09-22 19:19:26,usr_1520,Product,gpt-4o,2360,1994,0.02584,643,Success
+2026-09-22 19:20:42,usr_5012,Marketing,llama-3-70b,2833,1465,0.00258,509,Success
+2026-09-22 19:42:19,usr_5557,Data Science,gpt-4o,2816,1360,0.02064,973,Success
+2026-09-22 20:11:53,usr_3615,Sales,llama-3-70b,4220,1393,0.00337,393,Success
+2026-09-22 21:30:58,usr_9279,Engineering,llama-3-70b,1412,1086,0.0015,379,Success
+2026-09-22 21:38:03,usr_4611,Marketing,gpt-4o,1850,393,0.00856,1171,Success
+2026-09-22 21:54:34,usr_2535,Marketing,llama-3-70b,4297,1208,0.0033,318,Success
+2026-09-22 23:24:13,usr_2535,Product,gpt-4o,1986,220,0.00716,675,Success
+2026-09-22 23:59:03,usr_1434,Marketing,gpt-4o,954,984,0.01222,974,Success
+2026-09-23 00:05:09,usr_1106,Marketing,llama-3-70b,3149,821,0.00238,382,Success
+2026-09-23 00:31:08,usr_2679,Sales,llama-3-70b,4440,1437,0.00353,553,Success
+2026-09-23 01:06:27,usr_9935,Engineering,claude-3-5-sonnet,4049,1736,0.03819,830,Success
+2026-09-23 02:22:15,usr_1106,Engineering,llama-3-70b,3023,373,0.00204,322,Success
+2026-09-23 02:55:02,usr_4582,Sales,llama-3-70b,2837,1258,0.00246,531,Success
+2026-09-23 03:03:48,usr_4611,Engineering,claude-3-5-sonnet,3240,2744,0.05088,1554,Success
+2026-09-23 04:42:41,usr_9935,Engineering,claude-3-5-sonnet,1371,1192,0.02199,1125,Success
+2026-09-23 05:13:45,usr_1409,Data Science,gpt-4o,2310,1626,0.02203,648,Success
+2026-09-23 06:05:52,usr_7873,Marketing,llama-3-70b,2111,0,0.0,5000,Timeout_Error
+2026-09-23 06:26:57,usr_4611,Data Science,gpt-4o,1159,576,0.00866,826,Success
+2026-09-23 07:36:26,usr_3286,Engineering,llama-3-70b,3254,238,0.0021,569,Success
+2026-09-23 07:41:04,usr_3615,Engineering,gpt-4o,1512,608,0.00986,620,Success
+2026-09-23 07:42:37,usr_3286,Sales,claude-3-5-sonnet,3212,921,0.02345,981,Success
+2026-09-23 08:50:25,usr_5506,Marketing,claude-3-5-sonnet,4560,0,0.01088,157,Rate_Limit_Error
+2026-09-23 09:41:44,usr_8359,Sales,gpt-4o,2937,1651,0.02385,686,Success
+2026-09-23 11:10:53,usr_2424,Engineering,claude-3-5-sonnet,1024,1983,0.03282,850,Success
+2026-09-23 13:22:03,usr_8359,Product,gpt-4o,1461,1527,0.01892,919,Success
+2026-09-23 14:06:39,usr_8359,Data Science,gpt-4o,3540,1525,0.0241,1174,Success
+2026-09-23 14:31:32,usr_1434,Engineering,claude-3-5-sonnet,3194,2251,0.04335,1435,Success
+2026-09-23 15:06:28,usr_1106,Sales,claude-3-5-sonnet,1350,1629,0.02848,845,Success
+2026-09-23 15:34:14,usr_5506,Sales,claude-3-5-sonnet,3796,2088,0.04271,1066,Success
+2026-09-23 15:34:50,usr_9279,Marketing,llama-3-70b,4415,758,0.0031,498,Success
+2026-09-23 15:50:30,usr_7873,Engineering,llama-3-70b,1438,1000,0.00146,384,Success
+2026-09-23 18:18:44,usr_7912,Engineering,llama-3-70b,3542,662,0.00252,304,Success
+2026-09-23 19:01:55,usr_8359,Product,claude-3-5-sonnet,4798,862,0.02732,1221,Success
+2026-09-23 19:16:51,usr_1409,Sales,llama-3-70b,1322,875,0.00132,340,Success
+2026-09-23 21:10:11,usr_1434,Engineering,gpt-4o,1883,1081,0.01552,716,Success
+2026-09-23 23:13:40,usr_1106,Product,claude-3-5-sonnet,4424,1289,0.03261,888,Success
+2026-09-23 23:50:20,usr_4582,Data Science,llama-3-70b,1247,888,0.00128,595,Success
+2026-09-24 01:02:36,usr_9279,Marketing,gpt-4o,2876,1186,0.01905,681,Success
+2026-09-24 01:04:56,usr_2679,Sales,claude-3-5-sonnet,4892,817,0.02693,1529,Success
+2026-09-24 01:25:03,usr_9928,Data Science,gpt-4o,1984,1333,0.01829,895,Success
+2026-09-24 01:57:22,usr_2679,Product,llama-3-70b,1142,824,0.00118,699,Success
+2026-09-24 04:35:03,usr_9928,Data Science,llama-3-70b,3000,1472,0.00268,362,Success
+2026-09-24 04:52:28,usr_7873,Data Science,claude-3-5-sonnet,2210,1647,0.03134,829,Success
+2026-09-24 05:19:00,usr_5557,Data Science,gpt-4o,1623,293,0.00699,655,Success
+2026-09-24 05:54:24,usr_9279,Sales,gpt-4o,1170,595,0.00888,831,Success
+2026-09-24 09:23:19,usr_7912,Sales,gpt-4o,3740,492,0.01427,745,Success
+2026-09-24 11:24:36,usr_1409,Data Science,gpt-4o,3281,1121,0.01941,979,Success
+2026-09-24 11:51:47,usr_9928,Engineering,llama-3-70b,3095,879,0.00238,349,Success
+2026-09-24 12:09:45,usr_4582,Marketing,claude-3-5-sonnet,3854,449,0.0183,1091,Success
+2026-09-24 12:31:19,usr_4611,Data Science,gpt-4o,2174,279,0.00822,727,Success
+2026-09-24 13:09:15,usr_1434,Sales,llama-3-70b,5885,468,0.00381,387,Success
+2026-09-24 14:51:35,usr_4657,Data Science,gpt-4o,769,0,0.00205,284,Rate_Limit_Error
+2026-09-24 14:53:19,usr_2679,Data Science,claude-3-5-sonnet,2233,859,0.01958,1183,Success
+2026-09-24 16:44:30,usr_5557,Sales,claude-3-5-sonnet,2998,2780,0.05069,1210,Success
+2026-09-24 17:10:50,usr_9935,Data Science,claude-3-5-sonnet,4500,571,0.02207,801,Success
+2026-09-24 18:12:45,usr_5506,Engineering,llama-3-70b,2166,692,0.00171,340,Success
+2026-09-24 18:34:47,usr_7873,Product,llama-3-70b,1885,702,0.00155,529,Success
+2026-09-24 20:29:45,usr_4611,Engineering,llama-3-70b,879,888,0.00106,653,Success
+2026-09-24 20:57:53,usr_4811,Product,claude-3-5-sonnet,2242,2537,0.04478,1466,Success
+2026-09-24 21:07:34,usr_9935,Sales,claude-3-5-sonnet,864,2009,0.03273,1061,Success
+2026-09-24 22:43:44,usr_8359,Sales,claude-3-5-sonnet,1517,912,0.01823,938,Success
+2026-09-25 02:25:16,usr_3286,Product,claude-3-5-sonnet,1530,484,0.01185,1013,Success
+2026-09-25 02:48:27,usr_4257,Engineering,claude-3-5-sonnet,4656,951,0.02823,924,Success
+2026-09-25 02:49:03,usr_3615,Marketing,claude-3-5-sonnet,4357,2106,0.04466,923,Success
+2026-09-25 04:53:52,usr_4257,Data Science,gpt-4o,547,1517,0.01654,760,Success
+2026-09-25 05:48:34,usr_9279,Product,gpt-4o,1731,1956,0.02389,747,Success
+2026-09-25 07:04:30,usr_9928,Sales,gpt-4o,2285,496,0.01067,821,Success
+2026-09-25 07:24:32,usr_5557,Engineering,claude-3-5-sonnet,4770,2845,0.05698,1344,Success
+2026-09-25 08:59:50,usr_4811,Marketing,claude-3-5-sonnet,4786,1034,0.02987,994,Success
+2026-09-25 09:13:14,usr_7912,Data Science,gpt-4o,2362,317,0.00907,977,Success
+2026-09-25 10:36:06,usr_9279,Engineering,llama-3-70b,5830,521,0.00381,472,Success
+2026-09-25 11:11:28,usr_1409,Marketing,claude-3-5-sonnet,4609,1478,0.036,1031,Success
+2026-09-25 11:37:41,usr_5506,Data Science,claude-3-5-sonnet,3882,1312,0.03133,1328,Success
+2026-09-25 11:59:53,usr_3286,Product,gpt-4o,2926,851,0.01582,967,Success
+2026-09-25 12:42:50,usr_4611,Product,claude-3-5-sonnet,1103,0,0.00341,5000,Timeout_Error
+2026-09-25 13:38:58,usr_5557,Product,claude-3-5-sonnet,4059,1804,0.03924,1101,Success
+2026-09-25 15:17:36,usr_7873,Sales,gpt-4o,3598,1065,0.01964,977,Success
+2026-09-25 15:25:15,usr_4657,Engineering,gpt-4o,3688,1070,0.01992,824,Success
+2026-09-25 15:53:46,usr_7873,Product,gpt-4o,2567,1503,0.02145,1071,Success
+2026-09-25 16:48:40,usr_1409,Product,claude-3-5-sonnet,4400,2030,0.04365,1111,Success
+2026-09-25 17:38:30,usr_5506,Marketing,gpt-4o,3428,1161,0.02018,800,Success
+2026-09-25 18:10:59,usr_1488,Marketing,llama-3-70b,994,375,0.00082,684,Success
+2026-09-25 19:36:28,usr_2679,Product,llama-3-70b,2893,713,0.00216,591,Success
+2026-09-25 19:43:15,usr_9279,Data Science,gpt-4o,1451,1144,0.01507,860,Success
+2026-09-25 19:43:22,usr_3615,Marketing,claude-3-5-sonnet,1303,515,0.01163,1404,Success
+2026-09-25 20:50:14,usr_8359,Product,claude-3-5-sonnet,4178,1846,0.04022,1328,Success
+2026-09-25 20:50:21,usr_4657,Data Science,gpt-4o,3146,1573,0.0236,1033,Success
+2026-09-25 21:12:19,usr_5557,Sales,gpt-4o,3083,1610,0.02381,967,Success
+2026-09-25 21:31:33,usr_7873,Data Science,claude-3-5-sonnet,1202,1900,0.03211,1026,Success
+2026-09-25 21:57:34,usr_1520,Sales,llama-3-70b,1446,260,0.00102,556,Success
+2026-09-25 23:20:25,usr_7873,Data Science,llama-3-70b,4692,1175,0.00352,628,Success
+2026-09-25 23:46:47,usr_4657,Data Science,llama-3-70b,2625,537,0.0019,347,Success
+2026-09-25 23:47:15,usr_4582,Product,gpt-4o,937,0,0.00158,5000,Timeout_Error
+2026-09-25 23:50:32,usr_7873,Product,claude-3-5-sonnet,3917,579,0.02044,1586,Success
+2026-09-26 00:20:10,usr_7873,Sales,llama-3-70b,3264,280,0.00213,523,Success
+2026-09-26 00:46:02,usr_7912,Data Science,gpt-4o,2620,476,0.01131,909,Success
+2026-09-26 00:47:39,usr_2679,Sales,llama-3-70b,3818,896,0.00283,302,Success
+2026-09-26 01:21:00,usr_5012,Sales,claude-3-5-sonnet,4860,2770,0.05613,1410,Success
+2026-09-26 01:25:56,usr_1520,Product,gpt-4o,3554,1173,0.02062,875,Success
+2026-09-26 02:05:10,usr_1520,Product,claude-3-5-sonnet,3395,1593,0.03408,1527,Success
+2026-09-26 02:09:47,usr_4611,Engineering,gpt-4o,3556,1286,0.02175,820,Success
+2026-09-26 02:37:36,usr_1409,Sales,llama-3-70b,1370,584,0.00117,449,Success
+2026-09-26 02:38:06,usr_8359,Data Science,claude-3-5-sonnet,3482,2424,0.04681,1460,Success
+2026-09-26 03:00:10,usr_4611,Sales,claude-3-5-sonnet,4118,2865,0.05533,1543,Success
+2026-09-26 03:14:53,usr_4582,Sales,claude-3-5-sonnet,3036,2039,0.03969,1164,Success
+2026-09-26 07:00:02,usr_9928,Sales,llama-3-70b,5184,417,0.00336,490,Success
+2026-09-26 08:56:28,usr_3615,Marketing,llama-3-70b,5108,1166,0.00376,530,Success
+2026-09-26 09:29:04,usr_5557,Engineering,gpt-4o,2300,1051,0.01626,1095,Success
+2026-09-26 09:41:48,usr_4611,Product,gpt-4o,1722,1205,0.01636,1042,Success
+2026-09-26 10:07:43,usr_9928,Data Science,gpt-4o,1817,1913,0.02367,818,Success
+2026-09-26 10:17:55,usr_5506,Marketing,claude-3-5-sonnet,4973,0,0.00909,237,Rate_Limit_Error
+2026-09-26 10:34:02,usr_8359,Sales,llama-3-70b,2572,1422,0.0024,345,Success
+2026-09-26 10:53:39,usr_2535,Marketing,claude-3-5-sonnet,3542,0,0.00861,5000,Timeout_Error
+2026-09-26 11:07:59,usr_9928,Product,llama-3-70b,4769,468,0.00314,649,Success
+2026-09-26 11:14:08,usr_1434,Sales,gpt-4o,3595,296,0.01195,712,Success
+2026-09-26 11:43:40,usr_4611,Engineering,llama-3-70b,5101,630,0.00344,338,Success
+2026-09-26 11:50:21,usr_4257,Marketing,gpt-4o,1315,1433,0.01762,1121,Success
+2026-09-26 14:48:38,usr_9928,Data Science,gpt-4o,1409,1084,0.01436,896,Success
+2026-09-26 15:19:30,usr_1106,Data Science,gpt-4o,2055,1599,0.02113,999,Success
+2026-09-26 15:32:17,usr_4657,Sales,gpt-4o,1000,713,0.00963,1101,Success
+2026-09-26 16:27:49,usr_5557,Product,gpt-4o,2469,1345,0.01962,802,Success
+2026-09-26 16:29:15,usr_2679,Data Science,claude-3-5-sonnet,1198,607,0.0127,1088,Success
+2026-09-26 17:18:40,usr_4657,Marketing,llama-3-70b,5607,864,0.00388,305,Success
+2026-09-26 17:23:05,usr_2535,Engineering,claude-3-5-sonnet,1812,2262,0.03937,1177,Success
+2026-09-26 17:32:59,usr_5557,Sales,llama-3-70b,601,836,0.00086,659,Success
+2026-09-26 18:02:11,usr_7873,Marketing,llama-3-70b,2109,1409,0.00211,589,Success
+2026-09-26 18:07:22,usr_1488,Sales,llama-3-70b,1713,1479,0.00192,661,Success
+2026-09-26 18:35:53,usr_9279,Product,gpt-4o,1977,207,0.00701,1037,Success
+2026-09-26 19:51:15,usr_1434,Marketing,llama-3-70b,4321,1042,0.00322,536,Success
+2026-09-26 21:08:05,usr_1106,Sales,llama-3-70b,5854,1354,0.00432,620,Success
+2026-09-26 21:41:23,usr_4811,Data Science,claude-3-5-sonnet,1791,1415,0.0266,1030,Success
+2026-09-26 22:02:15,usr_3286,Marketing,llama-3-70b,4705,697,0.00324,641,Success
+2026-09-26 22:34:19,usr_1520,Data Science,gpt-4o,2824,1808,0.02514,632,Success
+2026-09-26 23:08:54,usr_8359,Engineering,llama-3-70b,2182,1014,0.00192,700,Success
+2026-09-26 23:10:01,usr_1488,Marketing,claude-3-5-sonnet,3276,1367,0.03033,1313,Success
+2026-09-26 23:49:51,usr_5506,Data Science,gpt-4o,513,987,0.01115,1093,Success
+2026-09-27 00:01:33,usr_1106,Marketing,llama-3-70b,2648,135,0.00167,557,Success
+2026-09-27 00:14:34,usr_1488,Engineering,claude-3-5-sonnet,811,1941,0.03155,1555,Success
+2026-09-27 00:15:02,usr_4657,Data Science,llama-3-70b,1619,375,0.0012,622,Success
+2026-09-27 01:59:57,usr_7912,Marketing,gpt-4o,1249,1877,0.02189,1100,Success
+2026-09-27 02:05:03,usr_4582,Product,claude-3-5-sonnet,2559,2227,0.04108,879,Success
+2026-09-27 03:34:22,usr_3615,Product,claude-3-5-sonnet,3325,2297,0.04443,1071,Success
+2026-09-27 05:49:08,usr_3615,Sales,claude-3-5-sonnet,3933,2237,0.04535,1186,Success
+2026-09-27 06:41:56,usr_1434,Product,llama-3-70b,4753,139,0.00294,495,Success
+2026-09-27 07:08:51,usr_4582,Sales,claude-3-5-sonnet,4558,2514,0.05138,1498,Success
+2026-09-27 07:20:15,usr_4582,Marketing,claude-3-5-sonnet,1438,2741,0.04543,1181,Success
+2026-09-27 07:36:09,usr_4582,Marketing,llama-3-70b,2997,1019,0.00241,577,Success
+2026-09-27 09:09:12,usr_1520,Product,claude-3-5-sonnet,2813,2445,0.04511,1363,Success
+2026-09-27 10:46:07,usr_9279,Sales,claude-3-5-sonnet,2526,2819,0.04986,965,Success
+2026-09-27 10:52:29,usr_2535,Sales,llama-3-70b,1078,740,0.00109,518,Success
+2026-09-27 10:55:53,usr_5506,Product,claude-3-5-sonnet,2986,1575,0.03258,1461,Success
+2026-09-27 10:59:50,usr_1434,Marketing,gpt-4o,1658,1686,0.021,905,Success
+2026-09-27 11:50:45,usr_1409,Data Science,claude-3-5-sonnet,1133,688,0.01372,1111,Success
+2026-09-27 12:57:49,usr_9928,Engineering,llama-3-70b,3416,0,0.0,5000,Timeout_Error
+2026-09-27 14:55:46,usr_1409,Engineering,gpt-4o,2149,1691,0.02228,947,Success
+2026-09-27 15:56:24,usr_1488,Data Science,claude-3-5-sonnet,1630,2363,0.04033,1391,Success
+2026-09-27 17:27:25,usr_9935,Product,llama-3-70b,5591,898,0.00389,493,Success
+2026-09-27 17:57:44,usr_5557,Sales,claude-3-5-sonnet,1464,717,0.01515,1351,Success
+2026-09-27 18:19:50,usr_1106,Engineering,llama-3-70b,4187,643,0.0029,635,Success
+2026-09-27 19:47:09,usr_9935,Product,gpt-4o,2188,250,0.00797,783,Success
+2026-09-27 19:49:59,usr_2824,Product,gpt-4o,775,406,0.006,634,Success
+2026-09-27 22:13:26,usr_1434,Data Science,claude-3-5-sonnet,1310,965,0.01841,1331,Success
+2026-09-27 22:35:46,usr_1106,Data Science,claude-3-5-sonnet,3106,1618,0.03359,1043,Success
+2026-09-27 23:31:48,usr_1434,Marketing,gpt-4o,2610,1820,0.02473,762,Success
+2026-09-28 00:33:06,usr_2824,Sales,gpt-4o,717,1572,0.01751,657,Success
+2026-09-28 02:58:15,usr_2679,Product,claude-3-5-sonnet,3346,657,0.01989,1441,Success
+2026-09-28 03:10:50,usr_3286,Data Science,claude-3-5-sonnet,4934,1782,0.04153,1473,Success
+2026-09-28 04:55:29,usr_3286,Engineering,claude-3-5-sonnet,3905,1740,0.03782,1016,Success
+2026-09-28 05:00:20,usr_9935,Product,llama-3-70b,5549,993,0.00393,441,Success
+2026-09-28 05:06:58,usr_5012,Data Science,gpt-4o,1487,593,0.00965,1139,Success
+2026-09-28 05:22:13,usr_3286,Marketing,claude-3-5-sonnet,4453,1008,0.02848,835,Success
+2026-09-28 05:39:08,usr_2679,Product,gpt-4o,2835,918,0.01627,1145,Success
+2026-09-28 05:44:28,usr_1488,Sales,gpt-4o,3477,1981,0.0285,961,Success
+2026-09-28 06:39:41,usr_5012,Sales,llama-3-70b,2421,311,0.00164,317,Success
+2026-09-28 07:39:05,usr_1409,Product,claude-3-5-sonnet,4885,1614,0.03886,1006,Success
+2026-09-28 08:40:50,usr_1409,Engineering,llama-3-70b,5522,931,0.00387,486,Success
+2026-09-28 09:57:56,usr_2424,Data Science,claude-3-5-sonnet,3364,2184,0.04285,968,Success
+2026-09-28 10:17:09,usr_2679,Marketing,gpt-4o,879,978,0.01198,699,Success
+2026-09-28 12:11:45,usr_7873,Data Science,llama-3-70b,5953,1013,0.00418,615,Success
+2026-09-28 13:41:57,usr_1409,Product,gpt-4o,1617,479,0.00883,629,Success
+2026-09-28 15:34:02,usr_1434,Marketing,claude-3-5-sonnet,2231,2272,0.04077,923,Success
+2026-09-28 16:26:23,usr_1409,Data Science,claude-3-5-sonnet,2679,2374,0.04365,1587,Success
+2026-09-28 16:39:47,usr_4582,Product,claude-3-5-sonnet,962,1962,0.03232,1237,Success
+2026-09-28 16:58:55,usr_1409,Engineering,llama-3-70b,1553,722,0.00136,384,Success
+2026-09-28 17:49:52,usr_7873,Data Science,llama-3-70b,5564,1240,0.00408,313,Success
+2026-09-28 18:32:57,usr_4582,Marketing,gpt-4o,3350,0,0.004,196,Rate_Limit_Error
+2026-09-28 18:50:21,usr_4257,Product,gpt-4o,3214,1571,0.02374,679,Success
+2026-09-28 19:00:36,usr_9279,Product,llama-3-70b,4410,651,0.00304,510,Success
+2026-09-28 19:11:29,usr_1434,Sales,llama-3-70b,3986,887,0.00292,481,Success
+2026-09-28 20:10:38,usr_4582,Product,gpt-4o,914,0,0.00221,5000,Timeout_Error
+2026-09-28 20:27:05,usr_1409,Data Science,claude-3-5-sonnet,4597,1318,0.03356,1463,Success
+2026-09-28 21:06:31,usr_5557,Sales,gpt-4o,830,859,0.01067,751,Success
+2026-09-28 21:23:04,usr_1434,Marketing,gpt-4o,3979,1060,0.02055,1101,Success
+2026-09-28 22:16:29,usr_7912,Product,claude-3-5-sonnet,4758,836,0.02681,1042,Success
+2026-09-28 23:03:18,usr_7873,Marketing,claude-3-5-sonnet,1648,2767,0.04645,1319,Success
+2026-09-28 23:54:15,usr_1409,Product,gpt-4o,2279,437,0.01007,1064,Success
+2026-09-28 23:55:15,usr_9935,Marketing,claude-3-5-sonnet,2621,2823,0.05021,952,Success
+2026-09-28 23:57:26,usr_4657,Data Science,llama-3-70b,1005,394,0.00084,406,Success
+2026-09-29 00:05:18,usr_9935,Sales,llama-3-70b,2293,727,0.00181,639,Success
+2026-09-29 00:11:29,usr_9928,Product,claude-3-5-sonnet,1538,1424,0.02597,1131,Success
+2026-09-29 01:19:39,usr_4611,Sales,gpt-4o,917,1587,0.01816,657,Success
+2026-09-29 01:37:23,usr_1106,Product,gpt-4o,1708,869,0.01296,1025,Success
+2026-09-29 02:46:32,usr_5012,Product,llama-3-70b,4776,377,0.00309,501,Success
+2026-09-29 02:51:34,usr_7873,Marketing,claude-3-5-sonnet,1168,2413,0.0397,823,Success
+2026-09-29 03:29:44,usr_7912,Sales,claude-3-5-sonnet,4899,2611,0.05386,1305,Success
+2026-09-29 04:30:52,usr_2424,Product,gpt-4o,3934,236,0.0122,702,Success
+2026-09-29 04:55:46,usr_1520,Engineering,llama-3-70b,5743,1377,0.00427,509,Success
+2026-09-29 07:48:29,usr_9928,Data Science,llama-3-70b,3404,788,0.00252,314,Success
+2026-09-29 08:48:15,usr_4611,Marketing,llama-3-70b,4269,1383,0.00339,422,Success
+2026-09-29 10:17:46,usr_4582,Data Science,llama-3-70b,1031,484,0.00091,526,Success
+2026-09-29 10:44:07,usr_1106,Sales,gpt-4o,1071,1588,0.01856,1164,Success
+2026-09-29 11:57:20,usr_4257,Marketing,claude-3-5-sonnet,4177,2993,0.05743,1240,Success
+2026-09-29 13:16:55,usr_9928,Engineering,claude-3-5-sonnet,3869,862,0.02454,1124,Success
+2026-09-29 14:02:02,usr_3286,Data Science,llama-3-70b,2782,436,0.00193,551,Success
+2026-09-29 14:33:33,usr_7873,Product,claude-3-5-sonnet,3854,1558,0.03493,1196,Success
+2026-09-29 15:14:22,usr_4257,Sales,claude-3-5-sonnet,2321,2799,0.04895,1476,Success
+2026-09-29 16:22:14,usr_9928,Engineering,claude-3-5-sonnet,4996,2944,0.05915,1144,Success
+2026-09-29 17:13:27,usr_5012,Product,claude-3-5-sonnet,1064,2242,0.03682,1069,Success
+2026-09-29 18:07:05,usr_1409,Engineering,claude-3-5-sonnet,3366,666,0.02009,930,Success
+2026-09-29 20:12:17,usr_9279,Engineering,claude-3-5-sonnet,4062,1947,0.04139,971,Success
+2026-09-29 20:16:47,usr_9279,Product,gpt-4o,3891,1303,0.02276,877,Success
+2026-09-29 21:06:11,usr_1488,Sales,claude-3-5-sonnet,2555,2506,0.04525,1033,Success
+2026-09-29 21:07:22,usr_2535,Data Science,claude-3-5-sonnet,3968,1125,0.02878,1586,Success
+2026-09-29 22:22:56,usr_4611,Sales,gpt-4o,1735,372,0.00806,637,Success
+2026-09-29 23:12:08,usr_1409,Product,gpt-4o,3448,1414,0.02276,844,Success
+2026-09-30 00:46:56,usr_1106,Marketing,llama-3-70b,1763,1139,0.00174,354,Success
+2026-09-30 01:06:47,usr_1409,Data Science,gpt-4o,1147,1808,0.02095,629,Success
+2026-09-30 01:10:59,usr_9928,Sales,llama-3-70b,3535,1116,0.00279,315,Success
+2026-09-30 02:43:14,usr_2424,Data Science,llama-3-70b,1920,970,0.00173,358,Success
+2026-09-30 02:55:20,usr_9928,Sales,llama-3-70b,3613,1411,0.00301,513,Success
+2026-09-30 04:16:08,usr_9935,Data Science,llama-3-70b,2452,1297,0.00225,519,Success
+2026-09-30 04:39:34,usr_2824,Sales,llama-3-70b,4923,1457,0.00383,313,Success
+2026-09-30 04:56:18,usr_1106,Sales,claude-3-5-sonnet,3751,2334,0.04626,965,Success
+2026-09-30 05:24:23,usr_4657,Sales,llama-3-70b,1890,0,0.0,5000,Timeout_Error
+2026-09-30 05:39:59,usr_3286,Data Science,claude-3-5-sonnet,2293,1118,0.02365,1525,Success
+2026-09-30 06:18:42,usr_9279,Sales,llama-3-70b,2443,1210,0.00219,475,Success
+2026-09-30 10:10:23,usr_7912,Marketing,llama-3-70b,5184,273,0.00327,326,Success
+2026-09-30 10:44:00,usr_2824,Product,claude-3-5-sonnet,1625,1732,0.03086,1170,Success
+2026-09-30 11:03:39,usr_4611,Data Science,claude-3-5-sonnet,4796,464,0.02135,806,Success
+2026-09-30 12:21:47,usr_2535,Product,claude-3-5-sonnet,1109,443,0.00997,1056,Success
+2026-09-30 12:45:55,usr_1434,Engineering,gpt-4o,1773,290,0.00733,689,Success
+2026-09-30 13:10:48,usr_1520,Product,claude-3-5-sonnet,2084,2904,0.04981,974,Success
+2026-09-30 13:26:23,usr_9279,Marketing,claude-3-5-sonnet,3932,501,0.01931,983,Success
+2026-09-30 13:56:39,usr_7873,Engineering,claude-3-5-sonnet,1012,2259,0.03692,1329,Success
+2026-09-30 14:02:03,usr_1488,Marketing,gpt-4o,3140,1969,0.02754,692,Success
+2026-09-30 17:09:24,usr_2679,Data Science,llama-3-70b,1418,242,0.001,441,Success
+2026-09-30 18:47:37,usr_2824,Sales,claude-3-5-sonnet,1935,2060,0.03671,989,Success
+2026-09-30 20:47:40,usr_9928,Sales,llama-3-70b,5541,1409,0.00417,573,Success
+2026-09-30 20:50:07,usr_1106,Product,llama-3-70b,3696,947,0.00279,323,Success
+2026-09-30 21:37:44,usr_1434,Product,claude-3-5-sonnet,1001,2377,0.03866,907,Success
+2026-09-30 21:59:04,usr_4611,Sales,claude-3-5-sonnet,4297,1724,0.03875,1063,Success
+2026-09-30 22:36:48,usr_4657,Product,gpt-4o,3909,981,0.01958,896,Success
+2026-09-30 23:33:38,usr_1434,Marketing,claude-3-5-sonnet,1896,1803,0.03273,1301,Success
+2026-09-30 23:38:23,usr_4582,Data Science,claude-3-5-sonnet,2589,1413,0.02896,1496,Success
+2026-09-30 23:49:06,usr_1434,Product,claude-3-5-sonnet,3987,1678,0.03713,1130,Success
+2026-10-01 02:14:24,usr_5506,Engineering,gpt-4o,1783,952,0.01398,906,Success
+2026-10-01 03:31:39,usr_4611,Marketing,claude-3-5-sonnet,4373,485,0.02039,965,Success
+2026-10-01 04:55:20,usr_5557,Sales,llama-3-70b,2038,885,0.00175,662,Success
+2026-10-01 05:23:35,usr_4257,Sales,claude-3-5-sonnet,3312,2766,0.05143,1152,Success
+2026-10-01 06:06:01,usr_2679,Product,llama-3-70b,2690,267,0.00177,542,Success
+2026-10-01 06:23:43,usr_9928,Sales,claude-3-5-sonnet,3108,1964,0.03878,1314,Success
+2026-10-01 07:12:52,usr_4811,Marketing,claude-3-5-sonnet,2664,1313,0.02769,824,Success
+2026-10-01 07:33:37,usr_4257,Sales,llama-3-70b,4079,797,0.00293,343,Success
+2026-10-01 07:50:30,usr_4582,Product,gpt-4o,897,1549,0.01773,1041,Success
+2026-10-01 07:54:06,usr_1488,Data Science,claude-3-5-sonnet,1741,1541,0.02834,1387,Success
+2026-10-01 08:46:37,usr_3615,Data Science,llama-3-70b,2618,305,0.00175,399,Success
+2026-10-01 09:09:08,usr_8359,Marketing,gpt-4o,2642,1075,0.01735,902,Success
+2026-10-01 09:34:00,usr_5012,Sales,gpt-4o,1583,1689,0.02085,974,Success
+2026-10-01 10:15:00,usr_2824,Engineering,gpt-4o,3921,1375,0.02355,1105,Success
+2026-10-01 11:02:14,usr_3615,Sales,gpt-4o,757,741,0.0093,978,Success
+2026-10-01 12:00:02,usr_4257,Product,llama-3-70b,3356,128,0.00209,464,Success
+2026-10-01 13:13:22,usr_5506,Marketing,llama-3-70b,2756,986,0.00225,639,Success
+2026-10-01 13:41:56,usr_3286,Engineering,gpt-4o,3351,0,0.00505,140,Rate_Limit_Error
+2026-10-01 14:26:28,usr_5506,Data Science,llama-3-70b,353,601,0.00057,580,Success
+2026-10-01 14:32:57,usr_9279,Data Science,llama-3-70b,3015,0,0.0,5000,Timeout_Error
+2026-10-01 14:40:17,usr_7873,Engineering,claude-3-5-sonnet,1159,2949,0.04771,1263,Success
+2026-10-01 15:10:14,usr_4582,Data Science,gpt-4o,3754,1393,0.02331,786,Success
+2026-10-01 15:55:10,usr_5506,Sales,claude-3-5-sonnet,2773,1755,0.03464,1084,Success
+2026-10-01 16:26:49,usr_4582,Data Science,gpt-4o,1013,849,0.01102,675,Success
+2026-10-01 17:33:22,usr_4582,Data Science,claude-3-5-sonnet,3682,2258,0.04492,1077,Success
+2026-10-01 18:10:36,usr_1409,Marketing,llama-3-70b,5414,155,0.00334,446,Success
+2026-10-01 18:27:55,usr_2424,Sales,llama-3-70b,1279,864,0.00129,562,Success
+2026-10-01 21:15:17,usr_4657,Marketing,claude-3-5-sonnet,3812,1662,0.03637,821,Success
+2026-10-02 00:33:47,usr_1409,Data Science,claude-3-5-sonnet,4756,2482,0.0515,1599,Success
+2026-10-02 01:22:41,usr_8359,Sales,llama-3-70b,2911,952,0.00232,509,Success
+2026-10-02 02:57:32,usr_4811,Engineering,claude-3-5-sonnet,1880,2502,0.04317,1225,Success
+2026-10-02 03:37:38,usr_4811,Marketing,llama-3-70b,1099,1011,0.00127,390,Success
+2026-10-02 04:21:47,usr_5506,Product,claude-3-5-sonnet,3417,1087,0.02656,1451,Success
+2026-10-02 04:28:34,usr_9279,Marketing,claude-3-5-sonnet,3890,2265,0.04564,1129,Success
+2026-10-02 04:35:54,usr_8359,Sales,gpt-4o,1273,504,0.00822,655,Success
+2026-10-02 06:07:08,usr_5506,Sales,gpt-4o,3421,1111,0.01966,689,Success
+2026-10-02 06:21:26,usr_7912,Sales,claude-3-5-sonnet,4598,529,0.02173,1138,Success
+2026-10-02 13:45:53,usr_4811,Sales,gpt-4o,838,1357,0.01567,631,Success
+2026-10-02 14:20:07,usr_9279,Engineering,gpt-4o,2152,1044,0.01582,636,Success
+2026-10-02 14:31:07,usr_1106,Product,gpt-4o,1931,391,0.00874,808,Success
+2026-10-02 14:48:36,usr_3615,Data Science,claude-3-5-sonnet,3447,2969,0.05488,1123,Success
+2026-10-02 15:19:00,usr_3615,Sales,claude-3-5-sonnet,2694,429,0.01452,1361,Success
+2026-10-02 15:51:11,usr_7873,Product,llama-3-70b,2679,496,0.00191,300,Success
+2026-10-02 17:32:07,usr_9928,Engineering,claude-3-5-sonnet,3805,2620,0.05072,1574,Success
+2026-10-02 18:38:30,usr_1409,Product,claude-3-5-sonnet,4101,989,0.02714,1433,Success
+2026-10-02 19:00:48,usr_4257,Engineering,claude-3-5-sonnet,3840,2942,0.05565,1122,Success
+2026-10-02 19:05:40,usr_7912,Marketing,claude-3-5-sonnet,837,2684,0.04277,1041,Success
+2026-10-02 19:34:01,usr_4611,Data Science,llama-3-70b,2281,394,0.0016,449,Success
+2026-10-02 21:27:08,usr_5506,Product,llama-3-70b,3706,1033,0.00284,656,Success
+2026-10-02 22:20:55,usr_4811,Product,claude-3-5-sonnet,4116,571,0.02091,1422,Success
+2026-10-02 22:41:15,usr_2824,Engineering,claude-3-5-sonnet,4839,673,0.02461,1413,Success
+2026-10-02 23:26:52,usr_3286,Product,llama-3-70b,1341,1092,0.00146,664,Success
+2026-10-03 03:22:27,usr_5012,Marketing,llama-3-70b,5858,1314,0.0043,549,Success
+2026-10-03 04:53:27,usr_5506,Product,claude-3-5-sonnet,3663,509,0.01862,1224,Success
+2026-10-03 05:05:17,usr_1488,Sales,claude-3-5-sonnet,2810,1020,0.02373,1571,Success
+2026-10-03 06:36:34,usr_4657,Product,claude-3-5-sonnet,4419,876,0.0264,1496,Success
+2026-10-03 06:47:25,usr_7912,Engineering,gpt-4o,2527,990,0.01622,715,Success
+2026-10-03 06:49:40,usr_3286,Engineering,llama-3-70b,1669,1213,0.00173,465,Success
+2026-10-03 07:53:12,usr_4257,Data Science,llama-3-70b,4606,1189,0.00348,664,Success
+2026-10-03 08:10:46,usr_8359,Marketing,claude-3-5-sonnet,1363,1341,0.0242,1187,Success
+2026-10-03 11:15:24,usr_5506,Marketing,gpt-4o,615,852,0.01006,701,Success
+2026-10-03 12:08:49,usr_1434,Data Science,gpt-4o,1211,594,0.00897,805,Success
+2026-10-03 12:26:38,usr_4657,Data Science,claude-3-5-sonnet,4265,1160,0.03019,1298,Success
+2026-10-03 12:29:37,usr_4257,Engineering,claude-3-5-sonnet,2342,1716,0.03277,1419,Success
+2026-10-03 14:48:35,usr_2424,Data Science,llama-3-70b,5305,0,0.0,5000,Timeout_Error
+2026-10-03 16:07:44,usr_2679,Sales,claude-3-5-sonnet,1067,1042,0.01883,1372,Success
+2026-10-03 16:24:07,usr_2424,Engineering,claude-3-5-sonnet,4607,2665,0.0538,1216,Success
+2026-10-03 17:01:24,usr_9279,Engineering,llama-3-70b,3469,864,0.0026,429,Success
+2026-10-03 17:06:20,usr_9935,Sales,gpt-4o,1595,1120,0.01519,853,Success
+2026-10-03 17:31:45,usr_9928,Marketing,claude-3-5-sonnet,936,1908,0.03143,1139,Success
+2026-10-03 19:42:06,usr_5557,Engineering,claude-3-5-sonnet,4544,854,0.02644,908,Success
+2026-10-03 20:17:13,usr_4657,Product,gpt-4o,1983,1432,0.01928,721,Success
+2026-10-03 22:18:44,usr_8359,Engineering,claude-3-5-sonnet,3974,2106,0.04351,1501,Success
+2026-10-04 02:30:46,usr_5557,Data Science,llama-3-70b,2652,974,0.00218,611,Success
+2026-10-04 03:39:23,usr_3615,Data Science,llama-3-70b,2096,1050,0.00189,694,Success
+2026-10-04 05:03:32,usr_5506,Product,gpt-4o,2937,339,0.01073,840,Success
+2026-10-04 06:01:43,usr_2824,Product,gpt-4o,3340,1996,0.02831,952,Success
+2026-10-04 06:23:29,usr_4657,Product,gpt-4o,3557,1603,0.02492,907,Success
+2026-10-04 07:26:19,usr_2424,Engineering,llama-3-70b,5146,458,0.00336,620,Success
+2026-10-04 08:29:33,usr_5506,Data Science,llama-3-70b,1024,602,0.00098,541,Success
+2026-10-04 09:26:25,usr_8359,Data Science,claude-3-5-sonnet,3369,1809,0.03724,808,Success
+2026-10-04 09:49:20,usr_4657,Engineering,llama-3-70b,5843,371,0.00373,405,Success
+2026-10-04 10:04:59,usr_9928,Sales,gpt-4o,527,1038,0.0117,879,Success
+2026-10-04 10:43:44,usr_3286,Marketing,llama-3-70b,386,1477,0.00112,304,Success
+2026-10-04 11:08:56,usr_3615,Data Science,llama-3-70b,5115,0,0.0,5000,Timeout_Error
+2026-10-04 12:37:35,usr_1434,Sales,claude-3-5-sonnet,4886,2134,0.04667,1250,Success
+2026-10-04 13:09:16,usr_5012,Marketing,gpt-4o,1023,1222,0.01478,887,Success
+2026-10-04 14:03:35,usr_9935,Engineering,claude-3-5-sonnet,1892,2303,0.04022,1483,Success
+2026-10-04 14:31:23,usr_1434,Engineering,llama-3-70b,2139,196,0.0014,442,Success
+2026-10-04 15:35:52,usr_3615,Engineering,gpt-4o,3239,908,0.01718,1056,Success
+2026-10-04 18:11:26,usr_5506,Product,claude-3-5-sonnet,1572,1746,0.03091,826,Success
+2026-10-04 19:58:09,usr_5557,Sales,claude-3-5-sonnet,2480,2629,0.04688,1439,Success
+2026-10-04 20:42:45,usr_8359,Engineering,claude-3-5-sonnet,3325,2218,0.04324,853,Success
+2026-10-05 00:13:36,usr_8359,Marketing,claude-3-5-sonnet,1342,1011,0.01919,1087,Success
+2026-10-05 03:08:31,usr_9935,Marketing,llama-3-70b,5580,811,0.00383,524,Success
+2026-10-05 04:41:55,usr_1488,Engineering,gpt-4o,2700,1004,0.01679,1141,Success
+2026-10-05 05:18:09,usr_3286,Marketing,gpt-4o,1131,828,0.01111,1017,Success
+2026-10-05 05:20:45,usr_7912,Marketing,llama-3-70b,2490,1153,0.00219,647,Success
+2026-10-05 05:49:18,usr_1488,Marketing,llama-3-70b,4481,1098,0.00335,696,Success
+2026-10-05 06:05:19,usr_3615,Sales,gpt-4o,2441,1064,0.01674,622,Success
+2026-10-05 06:13:34,usr_1434,Marketing,llama-3-70b,4256,0,0.0,277,Rate_Limit_Error
+2026-10-05 06:18:16,usr_1409,Marketing,llama-3-70b,3593,562,0.00249,619,Success
+2026-10-05 06:42:11,usr_9279,Product,gpt-4o,2775,987,0.01681,968,Success
+2026-10-05 08:00:49,usr_7912,Marketing,claude-3-5-sonnet,4108,2061,0.04324,1393,Success
+2026-10-05 08:26:12,usr_5506,Product,gpt-4o,1686,426,0.00847,1066,Success
+2026-10-05 10:29:50,usr_4582,Engineering,llama-3-70b,2752,1257,0.00241,671,Success
+2026-10-05 11:21:43,usr_7912,Sales,gpt-4o,3089,1525,0.02297,692,Success
+2026-10-05 12:05:22,usr_9935,Product,llama-3-70b,3018,778,0.00228,484,Success
+2026-10-05 12:27:07,usr_9935,Product,gpt-4o,1960,862,0.01352,777,Success
+2026-10-05 12:57:25,usr_1488,Product,claude-3-5-sonnet,1144,1578,0.0271,1531,Success
+2026-10-05 13:36:23,usr_7873,Marketing,llama-3-70b,3555,517,0.00244,511,Success
+2026-10-05 13:37:47,usr_1106,Product,claude-3-5-sonnet,1611,2404,0.04089,1430,Success
+2026-10-05 14:20:00,usr_2535,Product,claude-3-5-sonnet,1470,0,0.00911,157,Rate_Limit_Error
+2026-10-05 15:11:58,usr_4257,Engineering,llama-3-70b,577,252,0.0005,642,Success
+2026-10-05 15:29:27,usr_1106,Data Science,claude-3-5-sonnet,3440,1405,0.03139,888,Success
+2026-10-05 16:21:41,usr_5557,Marketing,claude-3-5-sonnet,3174,2749,0.05076,1482,Success
+2026-10-05 17:01:48,usr_1409,Sales,gpt-4o,2071,1121,0.01639,922,Success
+2026-10-05 18:30:30,usr_4257,Product,llama-3-70b,756,901,0.00099,434,Success
+2026-10-05 19:40:58,usr_5506,Engineering,gpt-4o,3193,1561,0.02359,963,Success
+2026-10-05 20:22:03,usr_2535,Marketing,gpt-4o,1000,1936,0.02186,1065,Success
+2026-10-05 21:11:48,usr_9279,Engineering,gpt-4o,2905,338,0.01064,614,Success
